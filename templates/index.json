@@ -1,0 +1,206 @@
+{
+  "sections": {
+    "slideshow_qXggNR": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_qA3zYi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_258.png",
+            "heading": "Lợi ích khi sử dụng sản phẩm Linh Chi Đỏ Nhất Long",
+            "heading_size": "h1",
+            "subheading": "Phục hồi sức khỏe nhanh chóng khi bị bệnh",
+            "button_label": "Tìm hiểu thêm",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_W9fYWd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_258.png",
+            "heading": "Lợi ích khi sử dụng sản phẩm Linh Chi Đỏ Nhất Long",
+            "heading_size": "h1",
+            "subheading": "Phục hồi sức khỏe nhanh chóng khi bị bệnh",
+            "button_label": "Tìm hiểu thêm",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_UA4wLh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_258.png",
+            "heading": "Lợi ích khi sử dụng sản phẩm Linh Chi Đỏ Nhất Long",
+            "heading_size": "h1",
+            "subheading": "Phục hồi sức khỏe nhanh chóng khi bị bệnh",
+            "button_label": "Tìm hiểu thêm",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_qA3zYi",
+        "slide_W9fYWd",
+        "slide_UA4wLh"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_with_text_k7GEC6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4HecNd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vùng trồng của chúng tôi",
+            "heading_size": "h2"
+          }
+        },
+        "text_qWcTUY": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>Trang trại được tọa lạc tại thung lũng đá vôi của thôn Đồng Phú xã Đồng Tâm, huyện Lạc Thủy, tỉnh Hòa Bình. Nấm Linh chi được trồng ở điều kiện khi hậu tự nhiên, rất đặc trưng của vùng khí hậu nhiệt đới gió mùa, nhiệt độ dao động giữa ngày và đêm cao.<\/h6><h6>Trang trại Nấm Linh chi đỏ Nhất Long được trồng ở điều kiện tự nhiên nên đã tạo điều kiện tốt nhất cho sự phát triển các dược chất chính của nấm linh chi đỏ.<\/h6><h6>Dự án này thuộc Bộ Khoa Học Công nghệ cấp Quốc Gia, do CEO của công ty CG Việt Nam, Mrs Vũ Thị Ngọc làm chủ nhiệm dự án. Với diện tích trên 1 hecta, trang trại được trang bị đầy đủ cơ sở vật chất từ phân lập giống, phòng nuôi giống, đến nhà trồng. Tất cả đều chuẩn theo dự án để có được sản phẩm nấm linh chi có chất lượng tốt nhất.<\/h6><h6>Đặc biệt, Linh Chi đỏ Nhất Long là giống linh chi cao cấp được chuyển giao từ Học viện Nông nghiệp Việt Nam và được phát triển bởi các giáo sư chuyên về nấm thuộc Trường Đại học Nông nghiệp Hà Nội, với quy trình chuyển giao giống được thực hiện nghiêm ngặt, đảm bảo mang lại sản phẩm nấm Linh chi vô cùng chất lượng.<\/h6>",
+            "text_style": "body"
+          }
+        },
+        "button_GC6PzT": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_4HecNd",
+        "text_qWcTUY",
+        "button_GC6PzT"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_4.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-6631f969-2883-4f18-bd28-d28ed1d541ea",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Sản phẩm nổi bật",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 10,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_i9BfUF": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Sản phẩm mới",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 10,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "video_aUCGQx": {
+      "type": "video",
+      "settings": {
+        "heading": "Chia sẻ của khách hàng về Linh Chi Đỏ Nhất Long",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/FB LCNL.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow_qXggNR",
+    "image_with_text_k7GEC6",
+    "featured_collection",
+    "featured_collection_i9BfUF",
+    "video_aUCGQx"
+  ]
+}
