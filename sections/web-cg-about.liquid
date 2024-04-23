@@ -1,0 +1,234 @@
+{{ 'section-main-page.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="page-width section-{{ section.id }}-padding">
+    <div class="box-heading-container">
+        <div class="box-heading">
+            <h1>{{section.settings.heading}}</h1>
+            <div>{{section.settings.sub_heading}}</div>
+        </div>
+    </div>
+</div>
+<div class="box-banner">
+    <img
+        src="{{ section.settings.banner | image_url: width: master }}"
+        alt="{{ section.settings.banner.alt | escape }}"
+        loading="lazy"
+    >
+</div>
+<div class="box-content-container">
+    {%- for block in section.blocks -%}
+        {%- case block.type -%}
+            {%- when 'block_1' -%}
+                {% render 'about-block-1', block: block %}
+            {%- when 'block_2' -%}
+                {% render 'about-block-2', block: block %}
+            {%- when 'block_3' -%}
+                {% render 'about-block-image', block: block %}
+        {%- endcase -%}
+    {%- endfor -%}
+</div>
+{% schema %}
+    {
+        "name": "t:sections.collection-list.name",
+        "tag": "section",
+        "class": "section section-collection-list",
+        "max_blocks": 15,
+        "settings": [
+            {
+                "type": "header",
+                "content": "t:sections.all.padding.section_padding_heading"
+            },
+            {
+                "type": "text",
+                "id": "heading",
+                "default": "Về CG Việt Nam",
+                "label": "Heading"
+            },
+            {
+                "type": "inline_richtext",
+                "id": "sub_heading",
+                "default": "Text...",
+                "label": "Subheading"
+            },
+            {
+                "type": "image_picker",
+                "id": "banner",
+                "label": "Banner"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "block_1",
+                "name": "Block 1",
+                "settings": [
+                    {
+                        "type": "header",
+                        "content": "Setting Block 1"
+                    },
+                    {
+                        "type": "text",
+                        "id": "block_heading_1",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "block_subheading_1",
+                        "label": "Text"
+                    },
+                    {
+                        "type": "header",
+                        "content": "Setting Block 2"
+                    },
+                    {
+                        "type": "text",
+                        "id": "block_heading_2",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "block_subheading_2",
+                        "label": "Text"
+                    }
+                ]
+            },
+            {
+                "type": "block_2",
+                "name": "Block 2",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "block2_header_heading",
+                        "default": "Giá trị văn hoá & giá trị cốt lõi",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "header",
+                        "content": "Setting"
+                    },
+                    {
+                        "type": "text",
+                        "id": "block2_heading_1",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "block2_subheading_1",
+                        "label": "Text"
+                    },
+                    {
+                        "type": "text",
+                        "id": "block2_heading_2",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "block2_subheading_2",
+                        "label": "Text"
+                    },
+                    {
+                        "type": "text",
+                        "id": "block2_heading_3",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "block2_subheading_3",
+                        "label": "Text"
+                    },
+                    {
+                        "type": "text",
+                        "id": "block2_heading_4",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "block2_subheading_4",
+                        "label": "Text"
+                    }
+                ]
+            },
+            {
+                "type": "block_3",
+                "name": "Image",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "heading_our_partner",
+                        "default": "Đối tác của chúng tôi",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_our_partner",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_our_partner_1",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_our_partner_2",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_our_partner_3",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_our_partner_4",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_our_partner_5",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_our_partner_6",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_our_partner_7",
+                        "label": "Image"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+            "name": "t:sections.collection-list.presets.name",
+                "blocks": [
+                    {
+                        "type": "block_1"
+                    },
+                    {
+                        "type": "block_2"
+                    },
+                    {
+                        "type": "block_3"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}
