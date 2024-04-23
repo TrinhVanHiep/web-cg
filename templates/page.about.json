@@ -1,10 +1,55 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
+      "type": "web-cg-about",
+      "blocks": {
+        "block_1_ByLLUd": {
+          "type": "block_1",
+          "settings": {
+            "block_heading_1": "Tầm nhìn",
+            "block_subheading_1": "<p>Kết hợp những bài thuốc truyền thống với y học hiện đại, Công ty đầu tư nghiên cứu, phát minh ra các sản phẩm chuyên về ung thư, rối loạn chuyển hóa, các bệnh mãn tính …. với tiêu chuẩn chất lượng nghiêm ngặt, mang lại hiệu quả cao và lành tính, an toàn cho sức khỏe người bệnh.<\/p>",
+            "block_heading_2": "Sứ mệnh",
+            "block_subheading_2": "<p>Kinh doanh, sản xuất để phụng sự con người<\/p>"
+          }
+        },
+        "block_2_M6jGTy": {
+          "type": "block_2",
+          "settings": {
+            "block2_header_heading": "Giá trị văn hoá & giá trị cốt lõi",
+            "block2_heading_1": "Trung Thực",
+            "block2_subheading_1": "<p>Trung thực là 1 phẩm chất rất quan trọng trong mỗi người, đặc biệt trong ngành y dược liên quan đến sức khỏe con người. Trung thực sẽ tạo niềm tin tuyệt đối với khách hàng, đối tác và đồng đội từ đó tạo ra được rất nhiều cơ hội phát triển bền vững. Môi trường CG từ lãnh đạo đến từng cá nhân đều quyết tâm theo đuổi, thực hiện, chia sẻ lan tỏa mạnh mẽ tính trung thực trong tập thể, đối tác khách hàng.<\/p>",
+            "block2_heading_2": "Tận Tâm",
+            "block2_subheading_2": "<p>Là hành động, hành vi chỉ sự cố gắng, tâm huyết, làm trong đam mê, chủ động, quan tâm tới từng chi tiết từng giai đoạn để hoàn thành kết quả và chịu trách nhiệm 100% Tập thể có phẩm chất tận tâm giúp cho đội ngũ luôn được sống trong môi trường hạnh phúc, khách hàng luôn an vui sẽ yêu mến và trung thành, bạn bè và người thân luôn trân quý, tôn trọng<\/p>",
+            "block2_heading_3": "Học Hỏi",
+            "block2_subheading_3": "<p>Đừng xấu hổ khi không biết, chỉ xấu hổ khi không học. Chúng tôi luôn luôn có tư duy những điều mình biết chỉ là hạt cát, những điều mình chưa biết là cả một đại dương sẽ giúp chúng tôi không bao giờ dừng lại việc học hỏi, Học hỏi là chìa khóa phát triển bản thân và đạt thành tựu tuyệt vời, bạn bè đồng nghiệp nể trọng, đối tác luôn muốn hợp tác tin tưởng, các mối quan hệ trở lên tốt đẹp.<\/p>",
+            "block2_heading_4": "Gieo Hạt",
+            "block2_subheading_4": "<p>Quy luật nhân quả mà đạo Phật đã dạy, cũng như được khoa học nghiên cứu chứng minh. Khi ta mang cho ai đó niềm vui hoặc nụ cười thì ta sẽ được muôn nụ cười hạnh phúc, và ngược lại khi ta mang sự đau khổ ta cũng chị chịu muôn đau khổ tới mình. Chúng tôi tin điều này và đó cũng là triết lý sống. Vì vậy những sản phẩm của chúng tôi kinh doanh, sản xuất đem lại chất lượng, sự an tâm cho quý đối tác, khách hàng bên cạnh đó chúng tôi không ngừng giúp đỡ chia sẻ tới những hoàn cảnh khó khăn trong và ngoài doanh nghiệp của mình<\/p>"
+          }
+        },
+        "block_3_eneDkb": {
+          "type": "block_3",
+          "settings": {
+            "heading_our_partner": "Đối tác của chúng tôi",
+            "image_our_partner": "shopify:\/\/shop_images\/Frame_19_1.png",
+            "image_our_partner_1": "shopify:\/\/shop_images\/Frame_18.png",
+            "image_our_partner_2": "shopify:\/\/shop_images\/Frame_1171275169.png",
+            "image_our_partner_3": "shopify:\/\/shop_images\/Frame_1171275170.png",
+            "image_our_partner_4": "shopify:\/\/shop_images\/Frame_1171275171.png",
+            "image_our_partner_5": "shopify:\/\/shop_images\/Frame_1171275175.png",
+            "image_our_partner_6": "shopify:\/\/shop_images\/Frame_1171275172.png",
+            "image_our_partner_7": "shopify:\/\/shop_images\/Frame_1171275174.png"
+          }
+        }
+      },
+      "block_order": [
+        "block_1_ByLLUd",
+        "block_2_M6jGTy",
+        "block_3_eneDkb"
+      ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "heading": "Về CG Việt Nam",
+        "sub_heading": "Công ty TNHH Thương mại CG Việt Nam được thành lập ngày 19 tháng 8 năm 2008. Thành viên sáng lập gồm bà Trần Thị Diệu Bình và bà Vũ Thị Ngọc. Từ ngày đầu thành lập mới chỉ có 7 nhân viên chính thức và gần 10 cộng tác viên. Với hơn 15 năm nỗ lực và phát triển, cho đến nay đội ngũ CG Việt Nam đã có hơn 50 nhân sự chính thức, gần 100 cộng tác viên cả nước. Hiện tại công ty tnhh TM CG việt nam có 1 doanh nghiệp chuyên phân phối dược phẩm, thực phẩm chức năng, thiết bị y tế, thực phẩm bổ sung và có 2 trang trại ,1 trang trại Trông Nấm Linh chi đỏ, 1 trang trại nuôi trồng dược liệu và cây ăn quả, Bên cạnh đó CG có thế mạnh huấn luyện và đào tạo đội ngũ kinh doanh\/trình dược viên nhà thuốc, bệnh viện.",
+        "banner": "shopify:\/\/shop_images\/CGVN_1.png"
       }
     }
   },
