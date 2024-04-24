@@ -3,21 +3,37 @@
     <h2 class="text-2xl font-semibold">{{ block.settings.block2_header_heading }}</h2>
     <div class="grid grid-cols-4 gap-12">
       <div class="box_block">
+        <img
+          src="{{ block.settings.image_heading_1 | image_url: width: 64 }}"
+          alt="{{ block.settings.image_heading_1.alt | escape }}"
+          loading="lazy">
         <h3 class="text-xl font-semibold">{{
    block.settings.block2_heading_1 }}</h3>
         <p class="mt-2">{{ block.settings.block2_subheading_1 }}</p>
       </div>
       <div class="box_block">
+        <img
+          src="{{ block.settings.image_heading_2 | image_url: width: 64 }}"
+          alt="{{ block.settings.image_heading_2.alt | escape }}"
+          loading="lazy">
         <h3 class="text-xl font-semibold">{{
    block.settings.block2_heading_2 }}</h3>
         <p class="mt-2">{{ block.settings.block2_subheading_2 }}</p>
       </div>
       <div class="box_block">
+        <img
+          src="{{ block.settings.image_heading_3 | image_url: width: 64 }}"
+          alt="{{ block.settings.image_heading_3.alt | escape }}"
+          loading="lazy">
         <h3 class="text-xl font-semibold">{{
    block.settings.block2_heading_3 }}</h3>
         <p class="mt-2">{{ block.settings.block2_subheading_3 }}</p>
       </div>
       <div class="box_block">
+        <img
+          src="{{ block.settings.image_heading_4 | image_url: width: 64 }}"
+          alt="{{ block.settings.image_heading_4.alt | escape }}"
+          loading="lazy">
         <h3 class="text-xl font-semibold">{{
    block.settings.block2_heading_4 }}</h3>
         <p class="mt-2">{{ block.settings.block2_subheading_4 }}</p>
