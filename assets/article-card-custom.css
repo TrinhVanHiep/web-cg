@@ -50,6 +50,11 @@
     font-family: 'PlusJakartaSans';
 }
 
+.article-image img {
+    border-radius: 8px;
+    display: block;
+}
+
 .card__information,
 .card__content {
     padding: 0;
