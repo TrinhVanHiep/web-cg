@@ -11,9 +11,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "featured_blog_new_TPzBAX": {
+      "type": "featured-blog-new",
+      "settings": {
+        "heading": "Blog posts",
+        "blog": "tin-tức"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "featured_blog_new_TPzBAX"
   ]
 }

@@ -1,0 +1,57 @@
+{{ 'article-card-new.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'article-card-custom.js' | asset_url }}" defer="defer"></script>
+<div class="blog-news">
+    <div class="page-width">
+        <div class="blogs_new-title">
+            <h2 class="blog__title-news">
+                {{ section.settings.heading }}
+            </h2>
+        </div>
+        <div class="owl-carousel owl-theme">
+        {%- for article in section.settings.blog.articles -%}
+            <div
+                data-slide-index="{{ forloop.index0 }}"
+                {% if settings.animations_reveal_on_scroll %}
+                data-cascade
+                style="--animation-order: {{ forloop.index }};"
+                {% endif %}
+            >
+                {% render 'article-card-custom',
+                blog: section.settings.blog,
+                article: article,
+                media_aspect_ratio: 1.66,
+                show_image: section.settings.show_image,
+                show_date: section.settings.show_date,
+                show_author: section.settings.show_author,
+                show_excerpt: true
+                %}
+            </div>
+        {%- endfor -%}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Bài viết mới",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "inline_richtext",
+            "id": "heading",
+            "default": "Blog posts",
+            "label": "t:sections.featured-blog.settings.heading.label"
+        },
+        {
+            "type": "blog",
+            "id": "blog",
+            "label": "t:sections.featured-blog.settings.blog.label"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Bài viết mới"
+        }
+    ]
+}
+{% endschema %}
