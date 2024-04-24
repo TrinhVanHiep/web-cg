@@ -1,0 +1,129 @@
+{{ 'about.css' | asset_url | stylesheet_tag }}
+<div class="box-content-container">
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when 'block_1' -%}
+      {% render 'about-block-home-1', block: block %}
+      {%- when 'block_2' -%}
+      {% render 'about-block-home-2', block: block %}
+    {%- endcase -%}
+  {%- endfor -%}
+</div>
+{% schema %}
+  {
+    "name": "t:sections.collection-list.name",
+    "tag": "section",
+    "class": "section section-collection-list",
+    "max_blocks": 15,
+    "blocks": [
+      {
+        "type": "block_1",
+        "name": "Block 1",
+        "settings": [
+          {
+            "type": "header",
+            "content": "Setting Block 1"
+          },
+          {
+            "type": "text",
+            "id": "block_heading_1",
+            "label": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "block_subheading_1",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Setting Block 2"
+          }, {
+            "type": "image_picker",
+            "id": "image_heading_2",
+            "label": "Image"
+          }, {
+            "type": "richtext",
+            "id": "block_heading_2",
+            "label": "Heading"
+          }, {
+            "type": "richtext",
+            "id": "block_subheading_2",
+            "label": "Text"
+          }
+        ]
+      }, {
+        "type": "block_2",
+        "name": "Block 2",
+        "settings": [
+          {
+            "type": "header",
+            "content": "Setting"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_heading_1",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "block2_heading_1",
+            "label": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "block2_subheading_1",
+            "label": "Text"
+          }, {
+            "type": "image_picker",
+            "id": "image_heading_2",
+            "label": "Image"
+          }, {
+            "type": "text",
+            "id": "block2_heading_2",
+            "label": "Heading"
+          }, {
+            "type": "richtext",
+            "id": "block2_subheading_2",
+            "label": "Text"
+          }, {
+            "type": "image_picker",
+            "id": "image_heading_3",
+            "label": "Image"
+          }, {
+            "type": "text",
+            "id": "block2_heading_3",
+            "label": "Heading"
+          }, {
+            "type": "richtext",
+            "id": "block2_subheading_3",
+            "label": "Text"
+          }, {
+            "type": "image_picker",
+            "id": "image_heading_4",
+            "label": "Image"
+          }, {
+            "type": "text",
+            "id": "block2_heading_4",
+            "label": "Heading"
+          }, {
+            "type": "richtext",
+            "id": "block2_subheading_4",
+            "label": "Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "t:sections.collection-list.presets.name",
+        "blocks": [
+          {
+            "type": "block_1"
+          }, {
+            "type": "block_2"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

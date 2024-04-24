@@ -1,0 +1,20 @@
+<div class="container mx-auto py-8 box-vision about-box">
+  <div class="page-width">
+    <div class="grid grid-cols-2 gap-6">
+      <div class="box_blocks">
+        <h1>{{ block.settings.block_heading_1 }}</h1>
+        <h1>{{ block.settings.block_subheading_1 }}</h1>
+      </div>
+      <div class="box_block">
+        <div class="box_block_flex">
+          <img
+            src="{{ block.settings.image_heading_2 | image_url: width: 80 }}"
+            alt="{{ block.settings.image_heading_2.alt | escape }}"
+            loading="lazy">
+          <h2>{{ block.settings.block_heading_2 }}</h2>
+        </div>
+        <p>{{ block.settings.block_subheading_2 }}</p>
+      </div>
+    </div>
+  </div>
+</div>

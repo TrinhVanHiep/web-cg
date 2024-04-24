@@ -160,10 +160,9 @@
 
 .banner__media {
   height: 100%;
-  position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 50%;
 }
 
 .banner__media-half {
@@ -267,13 +266,16 @@
 }
 
 .banner__content {
-  padding: 0;
-  display: flex;
   position: relative;
-  width: 100%;
+  width: 50%;
   align-items: center;
   justify-content: center;
   z-index: 2;
+  margin: 0;
+  background: rgba(241, 228, 197, 1);
+  padding-top: 194px !important;
+  padding-bottom: 194px !important;
+  padding-left: 201px !important;
 }
 
 @media screen and (min-width: 750px) {
@@ -339,7 +341,6 @@
 }
 
 .banner__box {
-  padding: 4rem 3.5rem;
   position: relative;
   height: fit-content;
   align-items: center;
@@ -347,6 +348,7 @@
   width: 100%;
   word-wrap: break-word;
   z-index: 1;
+  background: rgba(241, 228, 197, 1);
 }
 
 @media screen and (min-width: 750px) {
@@ -387,12 +389,23 @@
 }
 
 .banner__box > * + .banner__text {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.banner__box > * + .banner__text p {
+  margin-top: 0;
+}
+
+.image-icon-tich {
+  height: 16px !important;
+  margin-right: 16px;
 }
 
 @media screen and (min-width: 750px) {
   .banner__box > * + .banner__text {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 }
 
@@ -426,6 +439,10 @@
 
 .banner__heading {
   margin-bottom: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 67px;
+  font-family: 'BeautiqueDisplay';
 }
 
 .banner__box .banner__heading + * {
@@ -438,6 +455,7 @@
   gap: 1rem;
   max-width: 45rem;
   word-break: break-word;
+  background: rgba(211, 165, 64, 1);
 }
 
 @media screen and (max-width: 749px) {
