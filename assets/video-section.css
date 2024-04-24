@@ -48,6 +48,7 @@
 }
 .container-video {
   background: rgba(241, 228, 197, 1);
+  padding: 36px;
 }
 .title-video {
   font-size: 36px;
