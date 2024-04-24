@@ -17,9 +17,11 @@
 <div class="main-blog-news">
   <div class="main-blog page-width section-{{ section.id }}-padding">
     <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-      {{ blog.title | escape }}
+      {{ section.settings.heading | escape }}
     </h1>
-
+    {%- liquid
+      assign blog = section.settings.blog
+    %}
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles limit: 6 -%}
         <div
@@ -52,6 +54,17 @@
     {
       "type": "header",
       "content": "t:sections.main-blog.settings.header.content"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Tin tức",
+      "label": "Heading"
+    },
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "t:sections.featured-blog.settings.blog.label"
     },
     {
       "type": "select",

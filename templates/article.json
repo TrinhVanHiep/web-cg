@@ -5,6 +5,7 @@
       "blocks": {
         "featured_image": {
           "type": "featured_image",
+          "disabled": true,
           "settings": {
             "image_height": "adapt"
           }
@@ -13,13 +14,7 @@
           "type": "title",
           "settings": {
             "blog_show_date": true,
-            "blog_show_author": false
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
+            "blog_show_author": true
           }
         },
         "content": {
@@ -31,10 +26,11 @@
       "block_order": [
         "featured_image",
         "title",
-        "share",
         "content"
       ],
       "settings": {
+        "blog": "tin-tức",
+        "heading": "Bài viết mới nhất"
       }
     }
   },

@@ -194,6 +194,19 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "main_blog_home_PbNwfM": {
+      "type": "main-blog-home",
+      "settings": {
+        "blog": "tin-tức",
+        "layout": "collage",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -201,6 +214,7 @@
     "image_with_text_k7GEC6",
     "featured_collection",
     "featured_collection_i9BfUF",
-    "video_aUCGQx"
+    "video_aUCGQx",
+    "main_blog_home_PbNwfM"
   ]
 }
