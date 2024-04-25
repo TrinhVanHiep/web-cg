@@ -4,19 +4,64 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "column1_KXFXb3": {
+          "type": "column1",
+          "settings": {
+            "image_logo": "shopify:\/\/shop_images\/div.png",
+            "image_adress": "shopify:\/\/shop_images\/SVG_margin.png",
+            "address": "Địa chỉ: Số 3, ngõ 2, phố Thọ Tháp, phường Dịch Vọng, Cầu Giấy, Hà Nội",
+            "image_phone": "shopify:\/\/shop_images\/SVG_margin_1.png",
+            "phone": "Điện thoại: 024.3200.3300",
+            "image_email": "shopify:\/\/shop_images\/SVG_margin_2.png",
+            "email": "Email: info@tmp.vn",
+            "url_facebook": "",
+            "image_facebook": "shopify:\/\/shop_images\/div.icon-facebook_margin.png",
+            "url_zalo": "",
+            "image_zalo": "shopify:\/\/shop_images\/div.icon-zalo_margin.png",
+            "url_youtube": "",
+            "image_youtube": "shopify:\/\/shop_images\/div.icon-youtube_margin.png",
+            "rich_text": "<p>Số ĐKKD 0105572847 do Sở KHĐT Tp.Hà Nội cấp ngày 17\/10\/2011.<\/p><p><br\/>Các sản phẩm giới thiệu không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.<\/p><p><br\/>Các thông tin trên website CG Vietnam chỉ dành cho mục đích tham khảo, tra<br\/>cứu, khuyến nghị Quý khách hàng không tự ý áp dụng. CG Vietnam không chịu<br\/>trách nhiệm về những trường hợp tự ý áp dụng mà không có chỉ định của bác sĩ.<\/p>"
+          }
+        },
+        "column2_RjfHR6": {
+          "type": "column2",
+          "settings": {
+            "heading_column2": "Danh mục",
+            "url_homepage": "\/",
+            "homepage": "Trang chủ",
+            "url_about": "shopify:\/\/pages\/về-chung-toi",
+            "about": "Về chúng tôi",
+            "url_product": "shopify:\/\/collections\/all",
+            "product": "Sản phẩm",
+            "url_service": "shopify:\/\/pages\/dịch-vụ",
+            "service": "Dịch vụ",
+            "url_news": "shopify:\/\/blogs\/tin-tức",
+            "news": "Tin tức",
+            "url_contact": "shopify:\/\/pages\/contact",
+            "contact": "Liên hệ"
+          }
+        },
+        "column3_dw63Bw": {
+          "type": "column3",
+          "settings": {
+            "heading_column3": "Chính sách",
+            "payment_policy": "Chính sách thanh toán – Chính sách xử lý khiếu nại",
+            "information_security_policy": "Chính sách bảo mật thông tin",
+            "refund_policy": "Chính sách đổi trả và hoàn tiền",
+            "shipping_policy": "Chính sách giao hàng và vận chuyển",
+            "operating_regulations": "Quy chế hoạt động",
+            "general_terms": "Điều khoản chung",
+            "image_column_3": "shopify:\/\/shop_images\/div.d-md-flex.png"
+          }
+        }
+      },
+      "block_order": [
+        "column1_KXFXb3",
+        "column2_RjfHR6",
+        "column3_dw63Bw"
+      ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "newsletter_enable": false,
-        "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
-        "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
-        "payment_enable": true,
-        "show_policy": false,
-        "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
