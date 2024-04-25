@@ -244,6 +244,71 @@
         "padding_bottom": 36
       }
     },
+    "feedback_card_custom_RqWUWN": {
+      "type": "Feedback-card-custom",
+      "blocks": {
+        "block_1_NYeLJ4": {
+          "type": "block_1",
+          "settings": {
+            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”<\/p>",
+            "image_avatar": "shopify:\/\/shop_images\/image_211_1.png",
+            "block_heading_avatar": "Tiến Sĩ Ngô Xuân Nghiễn",
+            "block_heading_1": "Chuyên gia công nghệ nấm ăn và nấm dược liệu",
+            "image_product": "shopify:\/\/shop_images\/quote-a_png.png"
+          }
+        },
+        "block_1_EC4zpw": {
+          "type": "block_1",
+          "settings": {
+            "block_subheading_1": "<p>“Linh chi Nhất Long có thể thấy được rằng đây là sản phẩm được bào chế đầy đủ , được trồng tận gốc và được sản xuất đúng quy trình. Và cái đó được Viện Khoa học và Nông nghiệp Việt NNam tham gia và đảm bảo về chất lượng. Cho nên có thể nói rằng trong nước ta hiện nay đó là một loại trà Linh chi có chất lượng, đảm bảo uy tín và giá thành hợp lý<\/p>",
+            "image_avatar": "shopify:\/\/shop_images\/image_211_2.png",
+            "block_heading_avatar": "Ths.BS.Hoàng Khánh Toàn",
+            "block_heading_1": "Trưởng khoa y học cổ truyền - Bệnh viện Quân Y 108",
+            "image_product": "shopify:\/\/shop_images\/quote-a_png.png"
+          }
+        },
+        "block_1_zwJern": {
+          "type": "block_1",
+          "settings": {
+            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”<\/p>",
+            "image_avatar": "shopify:\/\/shop_images\/image_211_1.png",
+            "block_heading_avatar": "Tiến Sĩ Ngô Xuân Nghiễn",
+            "block_heading_1": "Chuyên gia công nghệ nấm ăn và nấm dược liệu",
+            "image_product": "shopify:\/\/shop_images\/quote-a_png.png"
+          }
+        },
+        "block_1_FTyHrV": {
+          "type": "block_1",
+          "settings": {
+            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”<\/p>",
+            "image_avatar": "shopify:\/\/shop_images\/image_211_1.png",
+            "block_heading_avatar": "Tiến Sĩ Ngô Xuân Nghiễn",
+            "block_heading_1": "Chuyên gia công nghệ nấm ăn và nấm dược liệu",
+            "image_product": "shopify:\/\/shop_images\/quote-a_png.png"
+          }
+        },
+        "block_1_AEY43z": {
+          "type": "block_1",
+          "settings": {
+            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”<\/p>",
+            "image_avatar": "shopify:\/\/shop_images\/image_211_1.png",
+            "block_heading_avatar": "Tiến Sĩ Ngô Xuân Nghiễn",
+            "block_heading_1": "Chuyên gia công nghệ nấm ăn và nấm dược liệu",
+            "image_product": "shopify:\/\/shop_images\/quote-a_png.png"
+          }
+        }
+      },
+      "block_order": [
+        "block_1_NYeLJ4",
+        "block_1_EC4zpw",
+        "block_1_zwJern",
+        "block_1_FTyHrV",
+        "block_1_AEY43z"
+      ],
+      "settings": {
+        "heading": "Khách hàng & Chuyên gia nói gì về Linh Chi Nhất Long"
+      }
+    },
     "video_aUCGQx": {
       "type": "video",
       "settings": {
@@ -267,6 +332,7 @@
     "featured_collection_i9BfUF",
     "main_business_philosophy_home_qh4qXM",
     "main_blog_home_PbNwfM",
+    "feedback_card_custom_RqWUWN",
     "video_aUCGQx"
   ]
 }

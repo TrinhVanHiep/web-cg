@@ -1,0 +1,101 @@
+{{ 'feedback-customer.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'article-card-custom.js' | asset_url }}" defer="defer"></script>
+<div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %} feedback-customer">
+  <div class="main-blog-news main-blog page-width ">
+    <h1 class="title-feedback">{{ section.settings.heading }}</h1>
+    <div class="owl-carousel owl-theme slider-feedback">
+      {%- for block in section.blocks -%}
+        <div class="blog-articles__article blog-articles_{{forloop.index}} article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          {%- if block and block != empty -%}
+            <div class="article-wrapper-feedback">
+              <div class="subtitle-feed">{{ block.settings.block_subheading_1 }}</div>
+              <div class="card__content card-user">
+                <img
+                  class="image-avatar"
+                  src="{{ block.settings.image_avatar | image_url: width: master }}"
+                  alt="{{ block.settings.image_avatar.alt | escape }}"
+                  loading="lazy">
+                <div class="content-user">
+                  <h3 class="name-user">{{ block.settings.block_heading_avatar }}</h3>
+                  <p class="sub-name-user">{{ block.settings.block_heading_1 }}</p>
+                </div>
+              </div>
+              <div class="article-image-feedback">
+                <img
+                  class="product-feedback"
+                  src="{{ block.settings.image_product | image_url: width: 442 }}"
+                  alt="{{ block.settings.image_product | escape }}"
+                  loading="lazy">
+              </div>
+            </div>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "t:sections.collection-list.name",
+    "tag": "section",
+    "class": "section section-collection-list",
+    "max_blocks": 15,
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      }, {
+        "type": "text",
+        "id": "heading",
+        "default": "Khách hàng & Chuyên gia nói gì về Linh Chi Nhất Long",
+        "label": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "block_1",
+        "name": "Block 1",
+        "settings": [
+          {
+            "type": "header",
+            "content": "Setting Block 1"
+          },
+          {
+            "type": "richtext",
+            "id": "block_subheading_1",
+            "label": "Text"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_avatar",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "block_heading_avatar",
+            "label": "Heading"
+          }, {
+            "type": "text",
+            "id": "block_heading_1",
+            "label": "Heading"
+          }, {
+            "type": "image_picker",
+            "id": "image_product",
+            "label": "Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Feedback-by-customer",
+        "blocks": [
+          {
+            "type": "block_1"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
