@@ -1,0 +1,13 @@
+<div class="shipping_container">
+    <div class="icon">
+        <img
+            class="image-icon-tich"
+            src="{{ block.settings.icon_shipping | image_url: master }}"
+            alt="{{ block.settings.icon_shipping.alt | escape }}"
+            loading="lazy">
+    </div>
+    <div class="shipping_text">
+        <h2>{{ block.settings.heading_shipping}}</h2>
+        <span>{{ block.settings.sub_shipping }}</span>
+    </div>
+</div>
