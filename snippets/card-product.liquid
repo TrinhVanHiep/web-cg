@@ -157,9 +157,12 @@
           </h3>
           <div class="variants-card_product">
             {%- for variant in product.variants -%}
-              <span>{{variant.title}}</span>
+              {% if forloop.first %}
+                <span>{{ variant.title }}</span>
+              {% endif %}
             {%- endfor -%}
           </div>
+          
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
