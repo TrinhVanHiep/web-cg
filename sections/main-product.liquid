@@ -1,6 +1,6 @@
 <section
   id="MainProduct-{{ section.id }}"
-  class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
+  class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }} product_main"
   data-section="{{ section.id }}"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
@@ -34,6 +34,7 @@
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+
   {%- if product.quantity_price_breaks_configured? -%}
     <script src="{{ 'show-more.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'price-per-item.js' | asset_url }}" defer="defer"></script>
@@ -69,7 +70,130 @@
   <div class="page-width">
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
-        {% render 'product-media-gallery', variant_images: variant_images %}
+        <div class="media_container">
+          {% render 'product-media-gallery', variant_images: variant_images %}
+        </div>
+        <div class="tab_container">
+          {%- liquid
+            assign thanhPhan = product.metafields.custom.ingredient | metafield_tag
+            assign congDung = product.metafields.custom.uses | metafield_tag
+            assign cachDung = product.metafields.custom.use | metafield_tag
+            assign chiDinh = product.metafields.custom.contraindicated | metafield_tag
+            assign tacDung = product.metafields.custom.unwanted | metafield_tag
+            assign thanTrong = product.metafields.custom.medicine | metafield_tag
+            assign tuongTacThuoc = product.metafields.custom.interactions | metafield_tag
+            assign dangBaoChe = product.metafields.custom.dosageforms | metafield_tag
+            assign quyCach = product.metafields.custom.specifications | metafield_tag
+            assign hanDung = product.metafields.custom.duedate | metafield_tag
+            assign baoQuan = product.metafields.custom.preserve | metafield_tag
+            assign sanXuat = product.metafields.custom.madein | metafield_tag
+            assign congTy = product.metafields.custom.distributioncompany | metafield_tag
+          %}
+    
+          {%- liquid
+            assign congThuc = product.metafields.custom.recipe | metafield_tag
+            assign thuongHieu = product.metafields.custom.brandproducts | metafield_tag
+            assign dangBaoChe = product.metafields.custom.dosageforms2 | metafield_tag
+            assign muiVi = product.metafields.custom.taste | metafield_tag
+            assign nguyenLieu = product.metafields.custom.ingredient2 | metafield_tag
+            assign dayTruyenSanXuat = product.metafields.custom.productionline | metafield_tag
+          %}
+          <div class="tab-container">
+            <button class="tablinks active" onclick="openTab(event, 'tab1')">Tổng quát sản phẩm</button>
+            <button class="tablinks" onclick="openTab(event, 'tab2')">Ưu điểm sản phẩm</button>
+            <button class="tablinks" onclick="openTab(event, 'tab3')">Đánh giá sản phẩm</button>
+          
+            <div id="tab1" class="tabcontent">
+              <table>
+                <tr>
+                    <td>Thành phần</td>
+                    <td>{{thanhPhan}}</td>
+                </tr>
+                <tr>
+                    <td>Công dụng</td>
+                    <td>{{congDung}}</td>
+                </tr>
+                <tr>
+                    <td>Cách dùng và liều dùng</td>
+                    <td>{{cachDung}}</td>
+                </tr>
+                <tr>
+                    <td>Chống chỉ định</td>
+                    <td>{{chiDinh}}</td>
+                </tr>
+                <tr>
+                    <td>Tác dụng không mong muốn</td>
+                    <td>{{tacDung}}</td>
+                </tr>
+                <tr>
+                    <td>Thận trọng khi dùng thuốc</td>
+                    <td>{{thanTrong}}</td>
+                </tr>
+                <tr>
+                    <td>Tương tác thuốc</td>
+                    <td>{{tuongTacThuoc}}</td>
+                </tr>
+                <tr>
+                    <td>Dạng bào chế</td>
+                    <td>{{dangBaoChe}}</td>
+                </tr>
+                <tr>
+                    <td>Quy cách</td>
+                    <td>{{quyCach}}</td>
+                </tr>
+                <tr>
+                    <td>Hạn dùng</td>
+                    <td>{{hanDung}}</td>
+                </tr>
+                <tr>
+                    <td>Bảo quản</td>
+                    <td>{{baoQuan}}</td>
+                </tr>
+                <tr>
+                    <td>Sản xuất tại</td>
+                    <td>{{sanXuat}}</td>
+                </tr>
+                <tr>
+                    <td>Công ty phân phối</td>
+                    <td>{{congTy}}</td>
+                </tr>
+            </table>
+            </div>
+          
+            <div id="tab2" class="tabcontent">
+              <table>
+                <tr>
+                    <td>Công thức</td>
+                    <td>{{congThuc}}</td>
+                </tr>
+                <tr>
+                    <td>Sản phẩm thương hiệu mạnh</td>
+                    <td>{{thuongHieu}}</td>
+                </tr>
+                <tr>
+                    <td>Dạng bào chế</td>
+                    <td>{{dangBaoChe}}</td>
+                </tr>
+                <tr>
+                    <td>Mùi vị</td>
+                    <td>{{muiVi}}</td>
+                </tr>
+                <tr>
+                  <td>Nguyên liệu</td>
+                  <td>{{nguyenLieu}}</td>
+              </tr>
+              <tr>
+                <td>Dây chuyển sản xuất</td>
+                <td>{{dayTruyenSanXuat}}</td>
+            </tr>
+            </table>
+            </div>
+          
+            <div id="tab3" class="tabcontent">
+              Comming soon
+            </div>
+          </div>
+        </div>
       </div>
       <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <product-info
@@ -109,6 +233,11 @@
                     price_class: 'price--large'
                   -%}
                 </div>
+                {%- if product.description != blank -%}
+                  <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+                    {{ product.description }}
+                  </div>
+                {%- endif -%}
                 {%- if product.quantity_price_breaks_configured? -%}
                   <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
                     <span>{{ 'products.product.volume_pricing.note' | t }}</span>
@@ -184,12 +313,7 @@
                     {%- endif -%}
                   {%- endif -%}
                 </p>
-              {%- when 'description' -%}
-                {%- if product.description != blank -%}
-                  <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-                    {{ product.description }}
-                  </div>
-                {%- endif -%}
+             
               {%- when 'sku' -%}
                 <p
                   class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -430,6 +554,8 @@
                     </volume-pricing>
                   {%- endif -%}
                 </div>
+              {%- when 'shopnow' -%}
+                {% render 'product_shopnow', block: block %}
               {%- when 'popup' -%}
                 <modal-opener
                   class="product-popup-modal__opener no-js-hidden quick-add-hidden"
@@ -637,6 +763,8 @@
                 </product-recommendations>
               {%- when 'icon-with-text' -%}
                 {% render 'icon-with-text', block: block %}
+              {%- when 'delivery' -%}
+                {% render 'product-shipping', block: block %}
             {%- endcase -%}
           {%- endfor -%}
           <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -652,7 +780,7 @@
         </div>
       {%- endif -%}
     </div>
-
+    
     {% render 'product-media-modal', variant_images: variant_images %}
 
     {% assign popups = section.blocks | where: 'type', 'popup' %}
@@ -680,7 +808,6 @@
         </div>
       </modal-dialog>
     {%- endfor -%}
-
     {%- if product.media.size > 0 -%}
       <script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>
       <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
@@ -692,7 +819,6 @@
       </script>
       <script src="{{ 'product-model.js' | asset_url }}" defer></script>
     {%- endif -%}
-
     <script>
       document.addEventListener('DOMContentLoaded', function () {
         function isIE() {
@@ -1223,6 +1349,63 @@
           "id": "page",
           "type": "page",
           "label": "t:sections.main-product.blocks.popup.settings.page.label"
+        }
+      ]
+    },
+    {
+      "type": "shopnow",
+      "name": "Mua ngay",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_shopnow",
+          "label": "Icon"
+        },
+        {
+          "type": "url",
+          "id": "shopnow_link",
+          "label": "Link"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_shopnow1",
+          "label": "Icon"
+        },
+        {
+          "type": "url",
+          "id": "shopnow_link1",
+          "label": "Link"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_shopnow2",
+          "label": "Icon"
+        },
+        {
+          "type": "url",
+          "id": "shopnow_link2",
+          "label": "Link"
+        }
+      ]
+    },
+    {
+      "type": "delivery",
+      "name": "Ship hàng",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_shipping",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "heading_shipping",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "sub_shipping",
+          "label": "Text"
         }
       ]
     },

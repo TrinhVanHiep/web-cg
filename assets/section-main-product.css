@@ -54,14 +54,14 @@
 
 @media screen and (min-width: 990px) {
   .product--large:not(.product--no-media) .product__media-wrapper {
-    max-width: 65%;
-    width: calc(65% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: 60%;
+    width: calc(60% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
   .product--large:not(.product--no-media) .product__info-wrapper {
-    padding: 0 0 0 4rem;
-    max-width: 35%;
-    width: calc(35% - var(--grid-desktop-horizontal-spacing) / 2);
+    padding: 0 0 0 3rem;
+    max-width: 40%;
+    width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
   .product--large:not(.product--no-media).product--right .product__info-wrapper {
@@ -218,18 +218,8 @@
 
 /* Product info */
 
-.product__info-container > * + * {
-  margin: 1.5rem 0;
-}
-
 .product__info-container iframe {
   max-width: 100%;
-}
-
-.product__info-container .product-form,
-.product__info-container .product__description,
-.product__info-container .icon-with-text {
-  margin: 2.5rem 0;
 }
 
 .product__text {
@@ -1032,6 +1022,7 @@ a.product__text {
   color: rgb(var(--color-foreground));
   cursor: pointer;
   background-color: transparent;
+  border-radius: 16px;
 }
 
 .thumbnail:hover {
@@ -1043,8 +1034,9 @@ a.product__text {
 }
 
 .thumbnail[aria-current] {
-  box-shadow: 0 0 0rem 0.1rem rgb(var(--color-foreground));
-  border-color: rgb(var(--color-foreground));
+  box-shadow: none;
+  border-color: #3b0b07;
+  border-width: 2px;
 }
 
 .image-magnify-full-size {
@@ -1170,6 +1162,7 @@ a.product__text {
   content: '';
   display: block;
   padding-bottom: 100%;
+  border-radius: 16px;
 }
 
 .product:not(.featured-product) .product__view-details {
@@ -1495,4 +1488,259 @@ a.product__text {
   .recipient-form > input[type='checkbox']:checked + label .icon-checkmark {
     border: none;
   }
+}
+
+/* Custom Product */
+.tabcontent {
+  display: none;
+}
+
+#tab1 {
+  display: block;
+}
+
+.tab-container {
+  background-color: #EFE0BD;
+  padding: 24px;
+  margin-top: 32px;
+}
+
+.tablinks {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #171717;
+  padding: 0 0 12px;
+  border-bottom: 2px solid transparent;
+  margin-right: 24px;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.tablinks.active {
+  border-color: #3B0B07;
+  font-weight: 800;
+}
+
+.tab-container table {
+  border: none;
+  box-shadow: none;
+  width: 100%;
+}
+
+.tab-container table:not([class]) td, 
+.tab-container table:not([class]) th {
+  border: none;
+  padding: 0 0 24px;
+  vertical-align: baseline;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2D2D2D;
+  font-weight: 400;
+  font-family: 'PlusJakartaSans';
+}
+
+.tab-container ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.metafield-rich_text_field p,
+.metafield-rich_text_field ul li {
+  font-weight: 500;
+  color: #242424;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+} 
+
+.tab-container table td:first-child {
+  width: 35%;
+  padding-right: 30px;
+}
+
+.product_main {
+  background-color: #F1E4C5;
+}
+
+.product__title {
+  margin: 0;
+}
+
+.product__title h1 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #3B0B07;
+  font-weight: 700;
+  font-family: 'BeautiqueDisplay';
+  margin: 0 0 8px;
+}
+
+.price__regular .price-item--regular {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #3B0B07;
+  font-family: 'BeautiqueDisplay';
+}
+
+.price.price--large.price--show-badge {
+  margin: 0 0 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #3B0B07;
+}
+
+.price__container {
+  margin: 0;
+}
+
+.product__description {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.product__description p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: 'PlusJakartaSans';
+}
+
+variant-selects .form__label {
+  display: none;
+}
+
+.product-form__quantity {
+  display: flex;
+  align-items: center;
+}
+
+.product-form__quantity label {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: 'PlusJakartaSans';
+}
+
+.product-form__quantity .quantity {
+  min-height: auto;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.quantity:after,
+.quantity:before {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.quantity__input {
+  font-weight: 700;
+}
+
+.product-form__submit {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #3B0B07;
+  padding: 12px 0;
+  border: 1px solid #3B0B07;
+  text-transform: uppercase;
+  background: transparent;
+  font-family: 'PlusJakartaSans';
+  border-radius: 4px;
+}
+
+.product-form__submit:after,
+.product-form__submit:before {
+  display: none;
+}
+
+.product-form__submit:hover {
+  box-shadow: none;
+  outline: none;
+}
+
+.product-form .shopify-payment-button__button--unbranded {
+  background-color: #D3A540;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: 'PlusJakartaSans';
+  padding: 0;
+  text-transform: uppercase;
+  border-color: #D3A540;
+  border-radius: 4px;
+}
+
+.product-form .shopify-payment-button__button--unbranded:hover:not([disabled]),
+.product-form .shopify-payment-button__button--unbranded:hover {
+  border: 1px solid #3B0B07;
+  background-color: transparent;
+  color: #3B0B07;
+}
+
+.product-form .shopify-challenge__button:after, 
+.product-form .shopify-payment-button__button--unbranded:after {
+  display: none
+}
+
+.shipping_container {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.shipping_container:last-of-type {
+  margin-bottom: 0;
+}
+
+.shipping_container h2 {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #3B0B07;
+  font-weight: 600;
+  font-family: 'PlusJakartaSans';
+}
+
+.shipping_container span {
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #3B0B07;
+  font-family: 'PlusJakartaSans';
+}
+
+.product-form form {
+  margin-bottom: 32px;
+}
+
+.shopnow {
+  margin: 4px 0 32px;
+}
+
+.shopnow h2 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: 'PlusJakartaSans';
+  margin: 0 0 8px;
+  color: #242424;
+}
+
+.shopnow_icon {
+  display: flex;
+  gap: 12px;
+}
+
+.shopnow_icon img {
+  display: block;
 }
