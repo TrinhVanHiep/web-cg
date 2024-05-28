@@ -32,6 +32,17 @@
           "settings": {
           }
         },
+        "shopnow_tmQBwC": {
+          "type": "shopnow",
+          "settings": {
+            "icon_shopnow": "shopify:\/\/shop_images\/Rectangle_29.png",
+            "shopnow_link": "",
+            "icon_shopnow1": "shopify:\/\/shop_images\/Rectangle_27.png",
+            "shopnow_link1": "",
+            "icon_shopnow2": "shopify:\/\/shop_images\/image_263.png",
+            "shopnow_link2": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -39,21 +50,36 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
+        "delivery_tK4bVR": {
+          "type": "delivery",
           "settings": {
+            "icon_shipping": "shopify:\/\/shop_images\/Link_SVG.png",
+            "heading_shipping": "Phân phối rộng khắp nơi",
+            "sub_shipping": "Sản phẩm có mặt tại 30.000 nhà thuốc khắp cả nước."
           }
         },
-        "share": {
-          "type": "share",
+        "delivery_RmMaDQ": {
+          "type": "delivery",
           "settings": {
-            "share_label": "Share"
+            "icon_shipping": "shopify:\/\/shop_images\/Link_SVG_1.png",
+            "heading_shipping": "Ship COD toàn quốc",
+            "sub_shipping": "Miễn phí giao hàng với đơn từ 500K"
           }
         },
-        "0e10c6e3-927e-4e2a-87e7-b4a849e4ae45": {
-          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "delivery_RfRLb8": {
+          "type": "delivery",
           "settings": {
-            "product": "{{product}}"
+            "icon_shipping": "shopify:\/\/shop_images\/Link_SVG_2.png",
+            "heading_shipping": "Sản phẩm chất lượng",
+            "sub_shipping": "Sản phẩm dựa trên tinh hoa của khoa học và thảo dược"
+          }
+        },
+        "delivery_LnDqA6": {
+          "type": "delivery",
+          "settings": {
+            "icon_shipping": "shopify:\/\/shop_images\/Link_SVG_3.png",
+            "heading_shipping": "Tích điểm 6 TẶNG 1",
+            "sub_shipping": "Khuyến mãi 6 tặng 1 bằng hình thức tích điểm"
           }
         }
       },
@@ -61,12 +87,14 @@
         "vendor",
         "title",
         "price",
-        "0e10c6e3-927e-4e2a-87e7-b4a849e4ae45",
         "variant_picker",
         "quantity_selector",
+        "shopnow_tmQBwC",
         "buy_buttons",
-        "description",
-        "share"
+        "delivery_tK4bVR",
+        "delivery_RmMaDQ",
+        "delivery_RfRLb8",
+        "delivery_LnDqA6"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -84,10 +112,28 @@
         "padding_bottom": 12
       }
     },
+    "a21d35765df78d829c6c": {
+      "type": "apps",
+      "blocks": {
+        "yotpo_product_reviews_ugc_reviews_awp988": {
+          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "yotpo_product_reviews_ugc_reviews_awp988"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "You may also like",
+        "heading": "Sản phẩm nổi bật",
+        "show_slider": true,
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
@@ -100,23 +146,6 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
-      }
-    },
-    "a21d35765df78d829c6c": {
-      "type": "apps",
-      "blocks": {
-        "3cb4ef62-4033-47dc-8312-e5c604c2caf7": {
-          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "3cb4ef62-4033-47dc-8312-e5c604c2caf7"
-      ],
-      "settings": {
-        "include_margins": true
       }
     }
   },

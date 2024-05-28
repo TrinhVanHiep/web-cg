@@ -1,0 +1,104 @@
+{{ 'contact-location.css' | asset_url | stylesheet_tag }}
+
+  <div class="page-width section-{{ section.id }}-padding">
+    <div class="experts-container">
+      <div class="expert-cards">
+        <img
+          src="{{ section.settings.img_1 | image_url: width: 394 }}"
+          class="expert-images"
+          alt="{{ item.image.alt | escape }}"
+          loading="lazy"
+          width="394"
+          height="{{ 525 | divided_by: item.image.aspect_ratio | ceil }}">
+        <div class="expert-info">
+          <h3 class="expert-name">{{ section.settings.heading_1 }}</h3>
+          <p class="expert-position">{{ section.settings.sub_heading_1 }}</p>
+        </div>
+      </div>
+      <div class="expert-cards">
+        <img
+          src="{{ section.settings.img_2 | image_url: width: 394 }}"
+          class="expert-images"
+          alt="{{ item.image.alt | escape }}"
+          loading="lazy"
+          width="394"
+          height="{{ 525 | divided_by: item.image.aspect_ratio | ceil }}">
+        <div class="expert-info">
+          <h3 class="expert-name">{{ section.settings.heading_2 }}</h3>
+          <p class="expert-position">{{ section.settings.sub_heading_2 }}</p>
+        </div>
+      </div>
+      <div class="expert-cards">
+        <img
+          src="{{ section.settings.img_3 | image_url: width: 394 }}"
+          class="expert-images"
+          alt="{{ item.image.alt | escape }}"
+          loading="lazy"
+          width="394"
+          height="{{ 525 | divided_by: item.image.aspect_ratio | ceil }}">
+        <div class="expert-info">
+          <h3 class="expert-name">{{ section.settings.heading_3 }}</h3>
+          <p class="expert-position">{{ section.settings.sub_heading_3 }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="gg-maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.1228497682105!2d105.78235677601916!3d20.987712089185646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad74df89b1d9%3A0x72702bb93cb7c5d8!2zSG_DoG5nIFRow6BuaCBWaWxsYXM!5e0!3m2!1svi!2s!4v1716908161435!5m2!1svi!2s" width="100%" height="559px" style="border:0; padding-bottom: 70px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </div>
+  </div>
+{% schema %}
+  {
+    "name": "t:sections.collection-list.name",
+    "tag": "section",
+    "class": "section section-collection-list",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      },
+      {
+        "type": "image_picker",
+        "id": "img_1",
+        "label": "chuyên gia 1 "
+      },
+      {
+        "type": "text",
+        "id": "heading_1",
+        "label": "Heading"
+      }, {
+        "type": "richtext",
+        "id": "sub_heading_1",
+        "label": "Subheading"
+      }, {
+        "type": "image_picker",
+        "id": "img_2",
+        "label": "Banner"
+      }, {
+        "type": "text",
+        "id": "heading_2",
+        "label": "Heading"
+      }, {
+        "type": "richtext",
+        "id": "sub_heading_2",
+        "label": "Subheading"
+      }, {
+        "type": "image_picker",
+        "id": "img_3",
+        "label": "Banner"
+      }, {
+        "type": "text",
+        "id": "heading_3",
+        "label": "Heading"
+      }, {
+        "type": "richtext",
+        "id": "sub_heading_3",
+        "label": "Subheading"
+      }
+    ],
+    "presets": [
+    {
+      "name": "Thông tin liên hệ"
+    }
+  ]
+  }
+{% endschema %}

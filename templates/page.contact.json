@@ -1,25 +1,38 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "card_contact_tYzHMD": {
+      "type": "card-contact",
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "Chuyên gia của chúng tôi",
+        "img_1": "shopify:\/\/shop_images\/Rectangle_6552.jpg",
+        "heading_1": "Dược sĩ Trần Thị Tuyển",
+        "sub_heading_1": "<ul><li>Chuyên ngành: cao đẳng dược Hà Nội <\/li><li>Kinh nghiệm: 13 năm trong ngành dược <\/li><li>Vị trí công tác: phụ trách chuyên môn Công ty TNHH Thương mại CG Việt Nam<\/li><\/ul>",
+        "img_2": "shopify:\/\/shop_images\/Rectangle_6550.jpg",
+        "heading_2": "Dược sĩ Nguyễn Ngọc Thủy",
+        "sub_heading_2": "<ul><li>Chuyên ngành: Đại học Dược Hà Nội <\/li><li>Kinh nghiệm: 12 năm trong ngành dược <\/li><li>Vị trí công tác: phụ trách chuyên môn Công ty TNHH Thương mại CG Việt Nam<\/li><\/ul>",
+        "img_3": "shopify:\/\/shop_images\/Rectangle_6551.jpg",
+        "heading_3": "Dược sĩ Nguyễn Thị Diễm",
+        "sub_heading_3": "<ul><li>Chuyên ngành: Cao đẳng Dược Hà Nội <\/li><li>Kinh nghiệm: 2 năm trong ngành dược <\/li><li>Vị trí công tác: phụ trách chuyên môn Công ty TNHH Thương mại CG Việt Nam<\/li><\/ul>",
+        "text_button": "Liên hệ tư vấn"
       }
     },
-    "form": {
-      "type": "contact-form",
+    "contact_location_yL8GPE": {
+      "type": "contact-location",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "img_1": "shopify:\/\/shop_images\/Capa_1-removebg-preview.png",
+        "heading_1": "Trụ sở chính",
+        "sub_heading_1": "<p>VA03A-8, Hoàng Thành villas, KĐT Mỗ Lao, Hà Đông, Hà Nội.<\/p>",
+        "img_2": "shopify:\/\/shop_images\/Capa_1__1_-removebg-preview.png",
+        "heading_2": "Điện thoại",
+        "sub_heading_2": "<p>0328141181<\/p>",
+        "img_3": "shopify:\/\/shop_images\/Capa_1__2_-removebg-preview.png",
+        "heading_3": "Thư điện tử",
+        "sub_heading_3": "<p>congtycgvietnam@duocphamcg.vn<\/p>"
       }
     }
   },
   "order": [
-    "main",
-    "form"
+    "card_contact_tYzHMD",
+    "contact_location_yL8GPE"
   ]
 }

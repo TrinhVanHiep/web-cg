@@ -1,0 +1,135 @@
+{{ 'card-contact.css' | asset_url | stylesheet_tag }}
+<script>
+function openModal() {
+  document.getElementById('contactModal').style.display = 'block';
+}
+
+function closeModal() {
+  document.getElementById('contactModal').style.display = 'none';
+}
+</script>
+
+<div class="card-contact-container">
+  <div class="page-width section-{{ section.id }}-padding">
+    <h1 class="card-contact-title">{{section.settings.title}}</h1>
+    <div class="experts-container">
+      <div class="expert-card">
+        <img
+          src="{{ section.settings.img_1 | image_url: width: 394 }}"
+          class="expert-image"
+          alt="{{ item.image.alt | escape }}"
+          loading="lazy"
+          width="394"
+          height="{{ 525 | divided_by: item.image.aspect_ratio | ceil }}">
+        <div class="expert-info">
+          <h3 class="expert-name">{{ section.settings.heading_1 }}</h3>
+          <p class="expert-position">{{ section.settings.sub_heading_1 }}</p>
+          <button class="contact-btn" onclick="openModal()">{{section.settings.text_button}}</button>
+        </div>
+      </div>
+      <div class="expert-card">
+        <img
+          src="{{ section.settings.img_2 | image_url: width: 394 }}"
+          class="expert-image"
+          alt="{{ item.image.alt | escape }}"
+          loading="lazy"
+          width="394"
+          height="{{ 525 | divided_by: item.image.aspect_ratio | ceil }}">
+        <div class="expert-info">
+          <h3 class="expert-name">{{ section.settings.heading_2 }}</h3>
+          <p class="expert-position">{{ section.settings.sub_heading_2 }}</p>
+          <button class="contact-btn" onclick="openModal()">{{section.settings.text_button}}</button>
+        </div>
+      </div>
+      <div class="expert-card">
+        <img
+          src="{{ section.settings.img_3 | image_url: width: 394 }}"
+          class="expert-image"
+          alt="{{ item.image.alt | escape }}"
+          loading="lazy"
+          width="394"
+          height="{{ 525 | divided_by: item.image.aspect_ratio | ceil }}">
+        <div class="expert-info">
+          <h3 class="expert-name">{{ section.settings.heading_3 }}</h3>
+          <p class="expert-position">{{ section.settings.sub_heading_3 }}</p>
+          <button class="contact-btn" onclick="openModal()">{{section.settings.text_button}}</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Popup for Contact -->
+<div id="contactModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <h2>Đăng ký nhận tư vấn</h2>
+    <!-- Include contact form here -->
+    {% include 'contact-form' %}
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "t:sections.collection-list.name",
+    "tag": "section",
+    "class": "section section-collection-list",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Chuyên gia của chúng tôi",
+        "label": "Heading"
+      },
+      {
+        "type": "image_picker",
+        "id": "img_1",
+        "label": "chuyên gia 1 "
+      },
+      {
+        "type": "text",
+        "id": "heading_1",
+        "label": "Heading"
+      }, {
+        "type": "richtext",
+        "id": "sub_heading_1",
+        "label": "Subheading"
+      }, {
+        "type": "image_picker",
+        "id": "img_2",
+        "label": "Banner"
+      }, {
+        "type": "text",
+        "id": "heading_2",
+        "label": "Heading"
+      }, {
+        "type": "richtext",
+        "id": "sub_heading_2",
+        "label": "Subheading"
+      }, {
+        "type": "image_picker",
+        "id": "img_3",
+        "label": "Banner"
+      }, {
+        "type": "text",
+        "id": "heading_3",
+        "label": "Heading"
+      }, {
+        "type": "richtext",
+        "id": "sub_heading_3",
+        "label": "Subheading"
+      }, {
+        "type": "text",
+        "id": "text_button",
+        "label": "textButton"
+      }
+    ],
+    "presets": [
+    {
+      "name": "liên hệ dịch vụ"
+    }
+  ]
+  }
+{% endschema %}

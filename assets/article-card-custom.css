@@ -161,6 +161,10 @@
     background-color: #F1E4C5;
 }
 
+.main-blog-news .page-width {
+    padding: 40px 136px;
+}
+
 @media screen and (max-width: 991px) {
     .article-wrapper {
         flex-direction: column;
@@ -173,7 +177,16 @@
     }
 }
 
+@media screen and (max-width: 1280px) {
+    .main-blog-news .page-width {
+        padding: 40px;
+    }
+}
+
 @media screen and (max-width: 768px) {
+    .main-blog-news .page-width {
+        padding: 20px;
+    }
     .blog-articles {
         display: flex;
         flex-direction: column;

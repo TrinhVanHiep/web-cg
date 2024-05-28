@@ -1,0 +1,71 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'section-related-products.css' | asset_url | stylesheet_tag }}
+
+{%- if section.settings.enable_quick_add -%}
+  {{ 'quick-add.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+
+
+<div class="page-width">
+  <div class="feature-collection-custom">
+    <div class="collection__title">
+      {%- if section.settings.title != blank -%}
+        <h2 class="related-products__heading inline-richtext {{ section.settings.heading_size }}">
+            {{ section.settings.title }}
+          </h2>
+      {%- endif -%}
+    </div>
+      <div>
+        <ul
+        class="related-products__slide owl-carousel owl-theme"
+        role="list"
+        >
+        {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+            <li class="grid__item">
+                {% render 'card-product',
+                card_product: product,
+                show_quick_add: section.settings.enable_quick_add,
+                %}
+            </li>
+        {% endfor %}
+    </ul>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Sản phẩm nổi bật",
+    "tag": "section",
+    "class": "section",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "title",
+        "default": "Featured collection",
+        "label": "t:sections.featured-collection.settings.title.label"
+      },
+        {
+        "type": "collection",
+        "id": "collection",
+        "label": "t:sections.featured-collection.settings.collection.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_quick_add",
+        "default": false,
+        "label": "t:sections.featured-collection.settings.enable_quick_buy.label"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Sản phẩm nổi bật"
+      }
+    ]
+  }
+{% endschema %}

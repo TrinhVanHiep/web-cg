@@ -521,7 +521,7 @@
   background: rgba(59, 11, 7, 1);
   display: flex;
   justify-content: space-between;
-  padding: 40px 450px;
+  padding: 40px 336px;
 }
 
 .image-logo {
@@ -597,10 +597,34 @@
   object-fit: contain;
   width: 400px;
   height: 96px;
+  margin-top: 90px;
 }
 
 .column2 ul li,
 .column3 ul li {
   list-style-type: none;
   margin-bottom: 16px;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 16px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .column1,
+  .column2,
+  .column3 {
+    width: 100%;
+  }
+  .image-logo {
+    object-fit: contain;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    padding: 40px;
+  }
 }

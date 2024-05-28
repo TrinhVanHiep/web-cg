@@ -136,60 +136,20 @@
         "padding_bottom": 0
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "featured_collection_custom_Qf3tBt": {
+      "type": "featured-collection-custom",
       "settings": {
         "title": "Sản phẩm nổi bật",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": true,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 10,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "scheme-2",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "collection": "test",
+        "enable_quick_add": true
       }
     },
-    "featured_collection_i9BfUF": {
-      "type": "featured-collection",
+    "featured_collection_custom_qDhfcx": {
+      "type": "featured-collection-custom",
       "settings": {
         "title": "Sản phẩm mới",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": true,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 10,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "scheme-2",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "collection": "test",
+        "enable_quick_add": true
       }
     },
     "main_business_philosophy_home_qh4qXM": {
@@ -201,8 +161,8 @@
             "block_heading_1": "Triết lý kinh doanh",
             "block_subheading_1": "<p>\" ĐỂ PHỤNG SỰ CON NGƯỜI \"<\/p>",
             "image_heading_2": "shopify:\/\/shop_images\/image_211.png",
-            "block_heading_2": "<p><strong>Bà Trần Thị Diệu Bình<\/strong><br\/>Chủ tịch & Nhà sáng lập CG Vietnam<\/p>",
-            "block_subheading_2": "<p>“ Với triết lý kinh doanh \"Để phụng sự con người\" là kim chỉ nam cho mọi hoạt động, điều đó giúp cho doanh nghiệp luôn đứng vững trước mọi khó khăn thách thức, chúng tôi đã tạo niềm tin tới hàng triệu khách hàng, không dừng ở đó chúng tôi sẽ luôn nỗ lực lan tỏa mạnh mẽ giá trị này giúp cho người dân Việt kéo dài tuổi thọ, an vui cuộc sống.”<\/p>"
+            "block_heading_2": "<p><strong>Bà Trần Thị Diệu Bình<\/strong><br\/>Giám đốc điều hành công ty TNHH thương mại CG Việt Nam<\/p>",
+            "block_subheading_2": "<p><em>\"Với triết lý kinh doanh <\/em><em><strong>\"Để phụng sự con người\"<\/strong><\/em><em> là kim chỉ nam cho mọi hoạt động, điều đó giúp cho doanh nghiệp luôn đứng vững trước mọi khó khăn thách thức, chúng tôi đã tạo niềm tin, giá trị tới hàng triệu khách hàng, không dừng ở đó chúng tôi sẽ luôn nỗ lực lan tỏa mạnh mẽ giá trị này giúp cho người dân Việt kéo dài tuổi thọ, an vui cuộc sống”.<\/em><\/p>"
           }
         },
         "block_2_K9jdWR": {
@@ -328,8 +288,8 @@
   "order": [
     "slideshow_qXggNR",
     "image_with_text_k7GEC6",
-    "featured_collection",
-    "featured_collection_i9BfUF",
+    "featured_collection_custom_Qf3tBt",
+    "featured_collection_custom_qDhfcx",
     "main_business_philosophy_home_qh4qXM",
     "main_blog_home_PbNwfM",
     "feedback_card_custom_RqWUWN",

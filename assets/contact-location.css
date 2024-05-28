@@ -1,0 +1,42 @@
+.experts-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .expert-cards {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    height: 274px;
+  }
+  
+  .expert-images {
+    width: 72px;
+    max-height: 72px;
+    object-fit: cover;
+    background: transparent;
+    background-image: #f1e4c5;
+  }
+  
+  .expert-info {
+    margin-top: 10px;
+  }
+  
+  .expert-name {
+    font-size: 24px;
+    color: #000;
+    line-height: 32px;
+    font-weight: 600;
+  }
+
+  ul {
+    padding-left: 30px;
+  }
+  
+  .expert-position {
+    font-size: 14px;
+    color: #666;
+  }

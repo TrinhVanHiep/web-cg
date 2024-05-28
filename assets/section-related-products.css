@@ -81,6 +81,19 @@
   background: #fff !important;
 }
 
+@media screen and (max-width: 1660px) {
+  .related-products__slide .owl-nav .owl-next {
+    right: 55px !important;
+    top: -10%;
+  }
+
+  .related-products__slide .owl-nav .owl-prev {
+    right: 125px;
+    top: -10%;
+    left: unset;
+  }
+}
+
 .related-products__slide .owl-nav .owl-next {
   right: -75px;
   left: inherit;
@@ -94,4 +107,17 @@
 
 .related-products_main {
   background-color: #F1E4C5;
+}
+
+.feature-collection-custom {
+  padding: 50px 0;
+}
+@media screen and (max-width: 1660px) {
+  .feature-collection-custom {
+    padding: 50px 40px;
+  }
+}
+
+.card__content .card-information {
+  text-align: center;
 }
