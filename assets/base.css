@@ -3620,3 +3620,11 @@ details-disclosure > details {
     list-style: none;
   }
 }
+
+.modal {
+  display: none;
+}
+
+.container-about.about-box {
+  background-color: transparent;
+}

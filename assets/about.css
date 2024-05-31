@@ -158,6 +158,7 @@
     line-height: 24px;
     color: #F4F4F4;
     font-family: 'PlusJakartaSans';
+    text-align: justify;
 }
 
 .grid-cols-4 {

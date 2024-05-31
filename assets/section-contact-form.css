@@ -12,6 +12,16 @@
 
 .contact .field {
   margin-bottom: 1.5rem;
+  border-radius: 5px;
+  background-color: #f1e4c5;
+  input {
+    border-radius: 5px;
+    background-color: #f1e4c5;
+  }
+  textarea {
+    border-radius: 5px;
+    background-color: #f1e4c5;
+  }
 }
 
 @media screen and (min-width: 750px) {
@@ -36,4 +46,8 @@
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;
   }
+}
+
+.contact {
+  background-color: #f1e4c5;
 }

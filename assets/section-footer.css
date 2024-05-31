@@ -527,8 +527,8 @@
 .image-logo {
   width: 211px;
   height: 78px;
-  object-fit: cover;
-  width: 50%;
+  object-fit: contain;
+  width: auto;
 }
 
 .column1 {

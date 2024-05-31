@@ -1518,6 +1518,7 @@ a.product__text {
   margin-right: 24px;
   cursor: pointer;
   margin-bottom: 24px;
+  font-family: 'PlusJakartaSans';
 }
 
 .tablinks.active {
