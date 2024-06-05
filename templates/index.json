@@ -149,7 +149,7 @@
       "type": "featured-collection-custom",
       "settings": {
         "title": "Sản phẩm mới",
-        "collection": "test",
+        "collection": "sản-phẩm-mới",
         "enable_quick_add": true
       }
     },
