@@ -1505,6 +1505,12 @@ a.product__text {
   margin-top: 32px;
 }
 
+@media screen and (max-width: 749px) {
+  .tab-container {
+    padding: 24px 0;
+  }
+}
+
 .tablinks {
   background-color: transparent;
   border: none;

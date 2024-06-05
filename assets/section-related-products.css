@@ -94,6 +94,23 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .related-products__slide .owl-nav .owl-next {
+    right: 0 !important;
+    top: -10%;
+  }
+
+  .related-products__slide .owl-nav .owl-prev {
+    right: 60px;
+    top: -10%;
+    left: unset;
+  }
+  
+  .related-products__heading {
+    margin-bottom: 80px;
+  }
+}
+
 .related-products__slide .owl-nav .owl-next {
   right: -75px;
   left: inherit;

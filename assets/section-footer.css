@@ -607,6 +607,12 @@
 }
 
 @media screen and (max-width: 992px) {
+  .image-column3 {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+  }
   .container {
     padding: 16px;
     flex-direction: column;

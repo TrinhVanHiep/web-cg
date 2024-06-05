@@ -117,3 +117,17 @@
 .feedback-customer .blog-articles__article.blog-articles_1 {
     padding: 0;
 }
+
+@media screen and (max-width: 749px) {
+    .title-feedback {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .feedback-customer {
+        margin: 0 32px;
+    }
+}

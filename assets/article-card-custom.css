@@ -111,6 +111,13 @@
     color: #1A202C;
 }
 
+@media screen and (max-width: 992px) {
+    .blog-articles__article.blog-articles_1 .card__heading {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
 .article-card__excerpt,
 .blog-articles__article.blog-articles_1 .article-card__excerpt {
     font-size: 14px;

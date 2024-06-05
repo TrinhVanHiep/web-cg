@@ -441,6 +441,10 @@
   .banner--stacked .banner__box {
     width: 100%;
   }
+
+  .banner__box > * + .banner__text {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 750px) {

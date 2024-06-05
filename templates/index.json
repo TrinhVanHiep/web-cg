@@ -121,7 +121,8 @@
         "button_GC6PzT"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_4.png",
+        "video": "shopify:\/\/files\/videos\/vùng trồng lồng tiếng.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",

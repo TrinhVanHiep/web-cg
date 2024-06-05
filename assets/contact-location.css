@@ -40,3 +40,27 @@
     font-size: 14px;
     color: #666;
   }
+
+  @media screen and (max-width: 1024px) {
+    .experts-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .expert-card {
+      width: 50%
+    }
+
+    .expert-cards {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .experts-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .expert-card {
+      width: 100%;
+    }
+  }
