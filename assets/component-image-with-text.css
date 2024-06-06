@@ -358,6 +358,17 @@
   margin-top: 2rem;
 }
 
+@media screen and (max-width: 749px) {
+  .image-with-text__content > * + * h6 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .image-with-text__heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
 .image-with-text__content > .image-with-text__text:empty ~ a {
   margin-top: 2rem;
 }
