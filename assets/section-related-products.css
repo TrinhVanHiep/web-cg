@@ -7,6 +7,7 @@
   font-size: 40px;
   line-height: 56px;
   font-family: 'BeautiqueDisplay';
+  font-weight: 700;
 }
 
 .related-products__slide .grid__item {
@@ -55,8 +56,8 @@
 
 .related-products__slide .price__regular .price-item--regular {
   color: #D3A540;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 24px;
+  line-height: 38px;
   font-family: 'BeautiqueDisplay';
   font-weight: 700;
 }

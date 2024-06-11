@@ -332,6 +332,7 @@ noscript .localization-selector.link {
   line-height: calc(1 + 0.8 / var(--font-body-scale));
   color: rgba(var(--color-foreground), 0.75);
   word-break: break-word;
+  text-transform: capitalize;
 }
 
 .disclosure__link:hover {
@@ -366,6 +367,7 @@ noscript .localization-selector.link {
   height: auto;
   min-height: initial;
   background: transparent;
+  text-transform: capitalize;
 }
 
 .header-localization .disclosure .localization-form__select:hover {
@@ -410,6 +412,9 @@ noscript .localization-selector.link {
 
 .header-localization:not(.menu-drawer__localization) .localization-form:only-child .localization-form__select {
   margin: 0;
+  & span {
+    text-transform: capitalize;
+  }
 }
 
 .header-localization:not(.menu-drawer__localization).localization-form__select > span {
