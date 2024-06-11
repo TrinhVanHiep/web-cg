@@ -160,8 +160,8 @@
           "type": "block_1",
           "settings": {
             "block_heading_1": "Triết lý kinh doanh",
-            "block_subheading_1": "<p>\" HÀNG THẬT - GIÁ CHUẨN - TẬN TÂM TẬN TÌNH \"<\/p>",
-            "image_heading_2": "shopify:\/\/shop_images\/image_211.png",
+            "block_subheading_1": "<p>HÀNG THẬT<\/p><p>GIÁ CHUẨN <\/p><p>TẬN TÂM TẬN TÌNH <\/p>",
+            "image_heading_2": "shopify:\/\/shop_images\/a63c91fa-ead4-41b6-ae6d-998eceadd994.jpg",
             "block_heading_2": "<p><strong>Bà Trần Thị Diệu Bình<\/strong><br\/>Giám đốc điều hành công ty TNHH thương mại CG Việt Nam<\/p>",
             "block_subheading_2": "<p>Triết lý kinh doanh của chúng tôi được xây dựng trên ba nguyên tắc cơ bản: <strong>Hàng thật, Giá chuẩn, và Tận tâm tận tình<\/strong><\/p>"
           }
@@ -169,18 +169,17 @@
         "block_2_K9jdWR": {
           "type": "block_2",
           "settings": {
-            "image_heading_1": "shopify:\/\/shop_images\/Group.png",
+            "image_heading_1": "shopify:\/\/shop_images\/Layer_1.svg",
             "block2_heading_1": "Hàng thật",
             "block2_subheading_1": "<p>Chúng tôi cam kết cung cấp hàng hóa và dịch vụ chất lượng, đáng tin cậy và đúng như mô tả. Chúng tôi không chỉ bán sản phẩm, mà còn tạo ra trải nghiệm mua sắm đáng tin cậy và hài lòng cho khách hàng.<\/p>",
             "image_heading_2": "shopify:\/\/shop_images\/Layer_1-removebg-preview.png",
             "block2_heading_2": "Giá Chuẩn",
             "block2_subheading_2": "<p>Chúng tôi cam kết áp dụng giá cả công bằng và minh bạch cho tất cả sản phẩm và dịch vụ của chúng tôi. Chúng tôi không chấp nhận sự không minh bạch trong quá trình định giá và luôn đảm bảo rằng giá cả của chúng tôi phản ánh chất lượng và giá trị thực sự của sản phẩm.<\/p>",
-            "image_heading_3": "shopify:\/\/shop_images\/Capa_1.png",
-            "block2_heading_3": "Tận Tâm",
+            "image_heading_3": "shopify:\/\/shop_images\/icons.svg",
+            "block2_heading_3": "Tận Tâm Tận Tình",
             "block2_subheading_3": "<p>Chúng tôi tận tâm và tận tình trong mọi giao dịch và tương tác với khách hàng. Chúng tôi luôn lắng nghe và đáp ứng nhu cầu của khách hàng một cách tận tình và chuyên nghiệp, với sự quan tâm và sự chăm sóc tận tâm.<\/p>",
-            "image_heading_4": "shopify:\/\/shop_images\/svg435.png",
-            "block2_heading_4": "Tận tình",
-            "block2_subheading_4": "<p>Xây dựng mối quan hệ là xương sống của doanh nghiệp, chúng tôi luôn trân trọng đối tác là nhà cung cấp, quý khách hàng, và đặc biệt đội ngũ nhân sự công ty. Vì vậy chúng tôi luôn tận tình đối với quý khách hàng, đối tác và nhân viên.<\/p>"
+            "block2_heading_4": "",
+            "block2_subheading_4": ""
           }
         }
       },
