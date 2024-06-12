@@ -109,14 +109,14 @@
 
 .box_block .box_block_flex {
     display: flex;
-    align-items: end;
+    align-items: flex-start;
     margin-bottom: 16px;
 }
 
 .img-avatar {
     width : 80px;
     height: 80px;
-    border-radius: 40px;
+    border-radius: 50%;
     object-fit: cover;
 }
 
