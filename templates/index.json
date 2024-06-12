@@ -141,7 +141,7 @@
       "type": "featured-collection-custom",
       "settings": {
         "title": "Sản phẩm nổi bật",
-        "collection": "test",
+        "collection": "sản-phẩm-sắp-ra-mắt",
         "enable_quick_add": true
       }
     },
