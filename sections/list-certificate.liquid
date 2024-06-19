@@ -1,0 +1,56 @@
+{{ 'list-certificate.css' | asset_url | stylesheet_tag }}
+<div class="section-heading">
+    <div class="page-width section-{{ section.id }}-padding">
+        <div class="box-heading-container-cer">
+            <div class="box-heading-cer">
+                <h1>{{section.settings.heading}}</h1>
+            </div>
+            <div class="list-certi">
+                <img
+                    src="{{ section.settings.image-certificate-1 | image_url: width: 900 }}"
+                    class="expert-image"
+                    alt="{{ item.image.alt | escape }}"
+                    loading="lazy"
+                    width="605"
+                    height="{{ 855 | divided_by: item.image.aspect_ratio | ceil }}">
+                <img
+                    src="{{ section.settings.image-certificate-2 | image_url: width: 900 }}"
+                    class="expert-image"
+                    alt="{{ item.image.alt | escape }}"
+                    loading="lazy"
+                    width="605"
+                    height="{{ 855 | divided_by: item.image.aspect_ratio | ceil }}">
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %}
+    {
+        "name": "t:sections.collection-list.name",
+        "tag": "section",
+        "class": "section section-collection-list",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "default": "Chứng chỉ",
+                "label": "Heading"
+            },
+            {
+                "type": "image_picker",
+                "id": "image-certificate-1",
+                "label": "Image Certificate 1"
+            },
+            {
+                "type": "image_picker",
+                "id": "image-certificate-2",
+                "label": "Image Certificate 2"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Thông tin chứng chỉ"
+            }
+        ]
+    }
+{% endschema %}
