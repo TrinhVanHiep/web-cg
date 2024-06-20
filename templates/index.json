@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "slideshow_qXggNR": {
@@ -121,7 +130,7 @@
         "button_GC6PzT"
       ],
       "settings": {
-        "video": "shopify:\/\/files\/videos\/vùng trồng lồng tiếng.mp4",
+        "video": "shopify:\/\/files\/videos\/Linh chi-HD 1080p.mov",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "height": "medium",
         "desktop_image_width": "medium",
