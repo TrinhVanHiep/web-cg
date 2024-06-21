@@ -15,8 +15,8 @@
         "slide_qA3zYi": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_258.jpg",
-            "heading": "Lợi ích khi sử dụng sản phẩm Linh Chi Đỏ Nhất Long",
+            "image": "shopify:\/\/shop_images\/Linh_Chi_Gold.jpg",
+            "heading": "Những lợi ích vượt trội của Linh Chi GOLD CG",
             "heading_size": "h2",
             "image_subheading": "shopify:\/\/shop_images\/check_1.png",
             "subheading_1": "Phục hồi sức khỏe nhanh chóng khi bị bệnh",
@@ -55,34 +55,11 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_UA4wLh": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/0a42674bc0d7608939c6.jpg",
-            "heading": "Lợi ích khi dùng sản phẩm Linh Chi Đỏ Nhất Long",
-            "heading_size": "h2",
-            "image_subheading": "shopify:\/\/shop_images\/check_1.png",
-            "subheading_1": "Phục hồi sức khỏe nhanh chóng khi bị bệnh",
-            "subheading_2": "Dự phòng mắc các bệnh mãn tính (ung thư, mỡ máu, tiểu đường, huyết áp, tim mạch)",
-            "subheading_3": "Giúp tinh thần lạc quan, phấn chấn, tăng cường sức khỏe tổng thể",
-            "subheading_4": "Đậm đặc hơn gấp đôi so với những sản phẩm khác trên thị trường.",
-            "button_label": "Tìm hiểu thêm",
-            "link": "shopify:\/\/products\/linh-chi-nhất-long",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_qA3zYi",
-        "slide_W9fYWd",
-        "slide_UA4wLh"
+        "slide_W9fYWd"
       ],
       "custom_css": [
 
