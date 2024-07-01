@@ -221,6 +221,16 @@
             "block_heading_1": ""
           }
         },
+        "block_1_nLyaTk": {
+          "type": "block_1",
+          "settings": {
+            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”<\/p>",
+            "image_avatar": "shopify:\/\/shop_images\/Screenshot_2024-07-01_215437.png",
+            "block_heading_avatar": "",
+            "block_heading_1": "",
+            "image_product": "shopify:\/\/shop_images\/quote-a_png.png"
+          }
+        },
         "block_1_zwJern": {
           "type": "block_1",
           "settings": {
@@ -256,6 +266,7 @@
         "block_1_NYeLJ4",
         "block_1_EC4zpw",
         "block_1_Np8Rxp",
+        "block_1_nLyaTk",
         "block_1_zwJern",
         "block_1_FTyHrV",
         "block_1_AEY43z"
