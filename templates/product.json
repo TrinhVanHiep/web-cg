@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -35,12 +44,12 @@
         "shopnow_tmQBwC": {
           "type": "shopnow",
           "settings": {
-            "icon_shopnow": "shopify:\/\/shop_images\/Rectangle_29.png",
+            "icon_shopnow": "shopify://shop_images/Rectangle_29.png",
             "shopnow_link": "",
-            "icon_shopnow1": "shopify:\/\/shop_images\/Rectangle_27.png",
-            "shopnow_link1": "https:\/\/shopee.vn\/cgvietnam?gidzl=xHt5S3vHuHFc0i1rF4VX5kKFmdyWH-KP_mZ2UIr0iqobMS0eVXFaJQOCn7zu4EqTfb_EU6FhVH1HD57d5m",
-            "icon_shopnow2": "shopify:\/\/shop_images\/image_263.png",
-            "shopnow_link2": "https:\/\/www.tiktok.com\/@duocphamcg?_t=8mp0jAcrZuj&_r=1"
+            "icon_shopnow1": "shopify://shop_images/Rectangle_27.png",
+            "shopnow_link1": "https://shopee.vn/cgvietnam?gidzl=xHt5S3vHuHFc0i1rF4VX5kKFmdyWH-KP_mZ2UIr0iqobMS0eVXFaJQOCn7zu4EqTfb_EU6FhVH1HD57d5m",
+            "icon_shopnow2": "shopify://shop_images/image_263.png",
+            "shopnow_link2": "https://www.tiktok.com/@duocphamcg?_t=8mp0jAcrZuj&_r=1"
           }
         },
         "buy_buttons": {
@@ -53,7 +62,7 @@
         "delivery_tK4bVR": {
           "type": "delivery",
           "settings": {
-            "icon_shipping": "shopify:\/\/shop_images\/Link_SVG.png",
+            "icon_shipping": "shopify://shop_images/Link_SVG.png",
             "heading_shipping": "Phân phối rộng khắp nơi",
             "sub_shipping": "Sản phẩm có mặt tại 30.000 nhà thuốc khắp cả nước."
           }
@@ -61,7 +70,7 @@
         "delivery_RmMaDQ": {
           "type": "delivery",
           "settings": {
-            "icon_shipping": "shopify:\/\/shop_images\/Link_SVG_1.png",
+            "icon_shipping": "shopify://shop_images/Link_SVG_1.png",
             "heading_shipping": "Ship COD toàn quốc",
             "sub_shipping": "Miễn phí giao hàng với đơn từ 500K"
           }
@@ -69,7 +78,7 @@
         "delivery_RfRLb8": {
           "type": "delivery",
           "settings": {
-            "icon_shipping": "shopify:\/\/shop_images\/Link_SVG_2.png",
+            "icon_shipping": "shopify://shop_images/Link_SVG_2.png",
             "heading_shipping": "Sản phẩm chất lượng",
             "sub_shipping": "Sản phẩm dựa trên tinh hoa của khoa học và thảo dược"
           }
@@ -77,9 +86,8 @@
         "delivery_LnDqA6": {
           "type": "delivery",
           "settings": {
-            "icon_shipping": "shopify:\/\/shop_images\/Link_SVG_3.png",
-            "heading_shipping": "Tích điểm 6 TẶNG 1",
-            "sub_shipping": "Khuyến mãi 6 tặng 1 bằng hình thức tích điểm"
+            "heading_shipping": "",
+            "sub_shipping": ""
           }
         }
       },
@@ -116,7 +124,7 @@
       "type": "apps",
       "blocks": {
         "yotpo_product_reviews_ugc_reviews_awp988": {
-          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": "{{product}}"
           }
