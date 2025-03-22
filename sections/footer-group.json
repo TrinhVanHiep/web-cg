@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -8,37 +17,37 @@
         "column1_KXFXb3": {
           "type": "column1",
           "settings": {
-            "image_logo": "shopify:\/\/shop_images\/Logo_CG_Vietnam_revised_-01_1.svg",
-            "image_adress": "shopify:\/\/shop_images\/SVG_margin.png",
+            "image_logo": "shopify://shop_images/logo_CG-linh_chi_do-01.png",
+            "image_adress": "shopify://shop_images/SVG_margin.png",
             "address": "Địa chỉ: VA03A-8, Hoàng Thành villas, KĐT Mỗ Lao, Hà Đông, Hà Nội.",
-            "image_phone": "shopify:\/\/shop_images\/SVG_margin_1.png",
+            "image_phone": "shopify://shop_images/SVG_margin_1.png",
             "phone": "Điện thoại: 0328141181",
-            "image_email": "shopify:\/\/shop_images\/SVG_margin_2.png",
+            "image_email": "shopify://shop_images/SVG_margin_2.png",
             "email": "Email: info@duocphamcg.vn",
             "url_facebook": "",
-            "image_facebook": "shopify:\/\/shop_images\/div.icon-facebook_margin.png",
+            "image_facebook": "shopify://shop_images/div.icon-facebook_margin.png",
             "url_zalo": "",
-            "image_zalo": "shopify:\/\/shop_images\/div.icon-zalo_margin.png",
+            "image_zalo": "shopify://shop_images/div.icon-zalo_margin.png",
             "url_youtube": "",
-            "image_youtube": "shopify:\/\/shop_images\/div.icon-youtube_margin.png",
-            "rich_text": "<p>Số ĐKKD 0102875681 do Sở KHĐT Tp.Hà Nội cấp ngày 19\/8\/2008<\/p><p><br\/>Các sản phẩm giới thiệu không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.<\/p><p><br\/>Các thông tin trên website CG Vietnam chỉ dành cho mục đích tham khảo, tra cứu, khuyến nghị Quý khách hàng không tự ý áp dụng. CG Vietnam không chịu trách nhiệm về những trường hợp tự ý áp dụng mà không có chỉ định của bác sĩ.<\/p>"
+            "image_youtube": "shopify://shop_images/div.icon-youtube_margin.png",
+            "rich_text": "<p>Số ĐKKD 0102875681 do Sở KHĐT Tp.Hà Nội cấp ngày 19/8/2008</p><p><br/>Các sản phẩm giới thiệu không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.</p><p><br/>Các thông tin trên website CG Vietnam chỉ dành cho mục đích tham khảo, tra cứu, khuyến nghị Quý khách hàng không tự ý áp dụng. CG Vietnam không chịu trách nhiệm về những trường hợp tự ý áp dụng mà không có chỉ định của bác sĩ.</p>"
           }
         },
         "column2_RjfHR6": {
           "type": "column2",
           "settings": {
             "heading_column2": "Danh mục",
-            "url_homepage": "\/",
+            "url_homepage": "/",
             "homepage": "Trang chủ",
-            "url_about": "shopify:\/\/pages\/về-chung-toi",
+            "url_about": "shopify://pages/về-chung-toi",
             "about": "Về chúng tôi",
-            "url_product": "shopify:\/\/collections\/all",
+            "url_product": "shopify://collections/all",
             "product": "Sản phẩm",
-            "url_service": "shopify:\/\/pages\/dịch-vụ",
+            "url_service": "shopify://pages/dịch-vụ",
             "service": "Dịch vụ",
-            "url_news": "shopify:\/\/blogs\/tin-tức",
+            "url_news": "shopify://blogs/tin-tức",
             "news": "Tin tức",
-            "url_contact": "shopify:\/\/pages\/contact",
+            "url_contact": "shopify://pages/contact",
             "contact": "Liên hệ"
           }
         },
@@ -52,7 +61,7 @@
             "shipping_policy": "Chính sách giao hàng và vận chuyển",
             "operating_regulations": "Quy chế hoạt động",
             "general_terms": "Điều khoản chung",
-            "image_column_3": "shopify:\/\/shop_images\/div.d-md-flex.png"
+            "image_column_3": "shopify://shop_images/div.d-md-flex.png"
           }
         }
       },
@@ -61,8 +70,7 @@
         "column2_RjfHR6",
         "column3_dw63Bw"
       ],
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

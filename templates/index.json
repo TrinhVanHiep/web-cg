@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_qXggNR": {
@@ -15,16 +15,16 @@
         "slide_qA3zYi": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Linh_Chi_Gold.jpg",
-            "heading": "<strong>Hãy bắt đầu hành trình chăm sóc sức khỏe của bạn ngay hôm nay với Linh Chi GOLD CG!<\/strong>",
+            "image": "shopify://shop_images/Linh_Chi_Gold.jpg",
+            "heading": "<strong>Hãy bắt đầu hành trình chăm sóc sức khỏe của bạn ngay hôm nay với Linh Chi GOLD CG!</strong>",
             "heading_size": "h2",
-            "image_subheading": "shopify:\/\/shop_images\/check_1.png",
-            "subheading_1": "<strong>Tăng Cường Hệ Miễn Dịch:<\/strong> Sản phẩm giúp cơ thể chống lại các tác nhân gây bệnh, tăng cường sức đề kháng và duy trì sức khỏe tổng thể tốt hơn.",
-            "subheading_2": "<strong>Chống Oxy Hóa:<\/strong> Bảo vệ tế bào khỏi tổn thương do gốc tự do, ngăn ngừa quá trình lão hóa và các bệnh mãn tính, giúp duy trì vẻ trẻ trung và sức khỏe bền lâu.",
-            "subheading_3": "<strong>Bồi Bổ Cơ Thể:<\/strong> Cung cấp nhiều dưỡng chất cần thiết, giúp cơ thể khỏe mạnh, tràn đầy năng lượng và phục hồi sau mệt mỏi.",
+            "image_subheading": "shopify://shop_images/check_1.png",
+            "subheading_1": "<strong>Tăng Cường Hệ Miễn Dịch:</strong> Sản phẩm giúp cơ thể chống lại các tác nhân gây bệnh, tăng cường sức đề kháng và duy trì sức khỏe tổng thể tốt hơn.",
+            "subheading_2": "<strong>Chống Oxy Hóa:</strong> Bảo vệ tế bào khỏi tổn thương do gốc tự do, ngăn ngừa quá trình lão hóa và các bệnh mãn tính, giúp duy trì vẻ trẻ trung và sức khỏe bền lâu.",
+            "subheading_3": "<strong>Bồi Bổ Cơ Thể:</strong> Cung cấp nhiều dưỡng chất cần thiết, giúp cơ thể khỏe mạnh, tràn đầy năng lượng và phục hồi sau mệt mỏi.",
             "subheading_4": "",
             "button_label": "Tìm hiểu thêm",
-            "link": "shopify:\/\/products\/linh-chi-nhất-long",
+            "link": "shopify://products/linh-chi-nhất-long",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
@@ -37,16 +37,16 @@
         "slide_W9fYWd": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hopNhatLong.jpg",
+            "image": "shopify://shop_images/hopNhatLong.jpg",
             "heading": "Lợi ích khi sử dụng sản phẩm Linh Chi  Nhất Long",
             "heading_size": "h1",
-            "image_subheading": "shopify:\/\/shop_images\/check_1.png",
+            "image_subheading": "shopify://shop_images/check_1.png",
             "subheading_1": "Phục hồi sức khỏe nhanh chóng khi bị bệnh",
             "subheading_2": "Dự phòng mắc các bệnh mãn tính (ung thư, mỡ máu, tiểu đường, huyết áp, tim mạch)",
             "subheading_3": "Giúp tinh thần lạc quan, phấn chấn, tăng cường sức khỏe tổng thể",
             "subheading_4": "Đậm đặc hơn gấp đôi so với những sản phẩm khác trên thị trường.",
             "button_label": "Tìm hiểu thêm",
-            "link": "shopify:\/\/products\/linh-chi-nhất-long",
+            "link": "shopify://products/linh-chi-nhất-long",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
@@ -61,9 +61,7 @@
         "slide_qA3zYi",
         "slide_W9fYWd"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
@@ -88,7 +86,7 @@
         "text_qWcTUY": {
           "type": "text",
           "settings": {
-            "text": "<h3>Trang trại được tọa lạc tại thung lũng đá vôi của thôn Đồng Phú xã Đồng Tâm, huyện Lạc Thủy, tỉnh Hòa Bình. Nấm Linh chi được trồng ở điều kiện khi hậu tự nhiên, rất đặc trưng của vùng khí hậu nhiệt đới gió mùa, nhiệt độ dao động giữa ngày và đêm cao.<\/h3><h3>Trang trại Nấm Linh chi đỏ Nhất Long được trồng ở điều kiện tự nhiên nên đã tạo điều kiện tốt nhất cho sự phát triển các dược chất chính của nấm linh chi đỏ.<\/h3><h3>Dự án này thuộc Bộ Khoa Học Công nghệ cấp Quốc Gia, do CEO của công ty CG Việt Nam, Mrs Vũ Thị Ngọc làm chủ nhiệm dự án. Với diện tích trên 1 hecta, trang trại được trang bị đầy đủ cơ sở vật chất từ phân lập giống, phòng nuôi giống, đến nhà trồng. Tất cả đều chuẩn theo dự án để có được sản phẩm nấm linh chi có chất lượng tốt nhất.<\/h3><h3>Đặc biệt, Linh Chi đỏ Nhất Long là giống linh chi cao cấp được chuyển giao từ Học viện Nông nghiệp Việt Nam và được phát triển bởi các giáo sư chuyên về nấm thuộc Trường Đại học Nông nghiệp Hà Nội, với quy trình chuyển giao giống được thực hiện nghiêm ngặt, đảm bảo mang lại sản phẩm nấm Linh chi vô cùng chất lượng.<\/h3>",
+            "text": "<h3>Trang trại được tọa lạc tại thung lũng đá vôi của thôn Đồng Phú xã Đồng Tâm, huyện Lạc Thủy, tỉnh Hòa Bình. Nấm Linh chi được trồng ở điều kiện khi hậu tự nhiên, rất đặc trưng của vùng khí hậu nhiệt đới gió mùa, nhiệt độ dao động giữa ngày và đêm cao.</h3><h3>Trang trại Nấm Linh chi đỏ Nhất Long được trồng ở điều kiện tự nhiên nên đã tạo điều kiện tốt nhất cho sự phát triển các dược chất chính của nấm linh chi đỏ.</h3><h3>Dự án này thuộc Bộ Khoa Học Công nghệ cấp Quốc Gia, do CEO của công ty CG Việt Nam, Mrs Vũ Thị Ngọc làm chủ nhiệm dự án. Với diện tích trên 1 hecta, trang trại được trang bị đầy đủ cơ sở vật chất từ phân lập giống, phòng nuôi giống, đến nhà trồng. Tất cả đều chuẩn theo dự án để có được sản phẩm nấm linh chi có chất lượng tốt nhất.</h3><h3>Đặc biệt, Linh Chi đỏ Nhất Long là giống linh chi cao cấp được chuyển giao từ Học viện Nông nghiệp Việt Nam và được phát triển bởi các giáo sư chuyên về nấm thuộc Trường Đại học Nông nghiệp Hà Nội, với quy trình chuyển giao giống được thực hiện nghiêm ngặt, đảm bảo mang lại sản phẩm nấm Linh chi vô cùng chất lượng.</h3>",
             "text_style": "body"
           }
         },
@@ -107,8 +105,8 @@
         "button_GC6PzT"
       ],
       "settings": {
-        "video": "shopify:\/\/files\/videos\/Linh chi-HD 1080p.mov",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/Linh chi-HD 1080p.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -146,24 +144,24 @@
           "type": "block_1",
           "settings": {
             "block_heading_1": "Triết lý kinh doanh",
-            "block_subheading_1": "<p>HÀNG THẬT<\/p><p>GIÁ CHUẨN <\/p><p>TẬN TÂM TẬN TÌNH <\/p>",
-            "image_heading_2": "shopify:\/\/shop_images\/LEE_2663_-_Copy.jpg",
-            "block_heading_2": "<p><strong>Bà Trần Thị Diệu Bình<\/strong><br\/>Giám đốc điều hành công ty TNHH thương mại CG Việt Nam<\/p>",
-            "block_subheading_2": "<p>Triết lý kinh doanh của chúng tôi được xây dựng trên ba nguyên tắc cơ bản: <strong>Hàng thật, Giá chuẩn, và Tận tâm tận tình<\/strong><\/p>"
+            "block_subheading_1": "<p>HÀNG THẬT</p><p>GIÁ CHUẨN </p><p>TẬN TÂM TẬN TÌNH </p>",
+            "image_heading_2": "shopify://shop_images/LEE_2663_-_Copy.jpg",
+            "block_heading_2": "<p><strong>Bà Trần Thị Diệu Bình</strong><br/>CEO Công ty TNHH Thương mại CG Việt Nam</p>",
+            "block_subheading_2": "<p>Triết lý kinh doanh của chúng tôi được xây dựng trên ba nguyên tắc cơ bản: <strong>Hàng thật, Giá chuẩn, và Tận tâm tận tình</strong></p>"
           }
         },
         "block_2_K9jdWR": {
           "type": "block_2",
           "settings": {
-            "image_heading_1": "shopify:\/\/shop_images\/Layer_1.svg",
+            "image_heading_1": "shopify://shop_images/Layer_1.svg",
             "block2_heading_1": "Hàng thật",
-            "block2_subheading_1": "<p>Chúng tôi cam kết cung cấp hàng hóa và dịch vụ chất lượng, đáng tin cậy và đúng như mô tả. Chúng tôi không chỉ bán sản phẩm, mà còn tạo ra trải nghiệm mua sắm đáng tin cậy và hài lòng cho khách hàng.<\/p>",
-            "image_heading_2": "shopify:\/\/shop_images\/Layer_1-removebg-preview.png",
+            "block2_subheading_1": "<p>Chúng tôi cam kết cung cấp hàng hóa và dịch vụ chất lượng, đáng tin cậy và đúng như mô tả. Chúng tôi không chỉ bán sản phẩm, mà còn tạo ra trải nghiệm mua sắm đáng tin cậy và hài lòng cho khách hàng.</p>",
+            "image_heading_2": "shopify://shop_images/Layer_1-removebg-preview.png",
             "block2_heading_2": "Giá Chuẩn",
-            "block2_subheading_2": "<p>Chúng tôi cam kết áp dụng giá cả công bằng và minh bạch cho tất cả sản phẩm và dịch vụ của chúng tôi. Chúng tôi không chấp nhận sự không minh bạch trong quá trình định giá và luôn đảm bảo rằng giá cả của chúng tôi phản ánh chất lượng và giá trị thực sự của sản phẩm.<\/p>",
-            "image_heading_3": "shopify:\/\/shop_images\/icons.svg",
+            "block2_subheading_2": "<p>Chúng tôi cam kết áp dụng giá cả công bằng và minh bạch cho tất cả sản phẩm và dịch vụ của chúng tôi. Chúng tôi không chấp nhận sự không minh bạch trong quá trình định giá và luôn đảm bảo rằng giá cả của chúng tôi phản ánh chất lượng và giá trị thực sự của sản phẩm.</p>",
+            "image_heading_3": "shopify://shop_images/icons.svg",
             "block2_heading_3": "Tận Tâm Tận Tình",
-            "block2_subheading_3": "<p>Chúng tôi tận tâm và tận tình trong mọi giao dịch và tương tác với khách hàng. Chúng tôi luôn lắng nghe và đáp ứng nhu cầu của khách hàng một cách tận tình và chuyên nghiệp, với sự quan tâm và sự chăm sóc tận tâm.<\/p>",
+            "block2_subheading_3": "<p>Chúng tôi tận tâm và tận tình trong mọi giao dịch và tương tác với khách hàng. Chúng tôi luôn lắng nghe và đáp ứng nhu cầu của khách hàng một cách tận tình và chuyên nghiệp, với sự quan tâm và sự chăm sóc tận tâm.</p>",
             "block2_heading_4": "",
             "block2_subheading_4": ""
           }
@@ -173,8 +171,7 @@
         "block_1_khGKww",
         "block_2_K9jdWR"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "main_blog_home_PbNwfM": {
       "type": "main-blog-home",
@@ -196,71 +193,71 @@
         "block_1_NYeLJ4": {
           "type": "block_1",
           "settings": {
-            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”<\/p>",
-            "image_avatar": "shopify:\/\/shop_images\/image_211_1.png",
+            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”</p>",
+            "image_avatar": "shopify://shop_images/image_211_1.png",
             "block_heading_avatar": "Tiến Sĩ Ngô Xuân Nghiễn",
             "block_heading_1": "Chuyên gia công nghệ nấm ăn và nấm dược liệu",
-            "image_product": "shopify:\/\/shop_images\/Giao_su_Ngo_Xuan_NGhien.jpg"
+            "image_product": "shopify://shop_images/Giao_su_Ngo_Xuan_NGhien.jpg"
           }
         },
         "block_1_EC4zpw": {
           "type": "block_1",
           "settings": {
-            "block_subheading_1": "<p>“Linh chi Nhất Long có thể thấy được rằng đây là sản phẩm được bào chế đầy đủ , được trồng tận gốc và được sản xuất đúng quy trình. Và cái đó được Viện Khoa học và Nông nghiệp Việt NNam tham gia và đảm bảo về chất lượng. Cho nên có thể nói rằng trong nước ta hiện nay đó là một loại trà Linh chi có chất lượng, đảm bảo uy tín và giá thành hợp lý<\/p>",
-            "image_avatar": "shopify:\/\/shop_images\/image_211_2.png",
+            "block_subheading_1": "<p>“Linh chi Nhất Long có thể thấy được rằng đây là sản phẩm được bào chế đầy đủ , được trồng tận gốc và được sản xuất đúng quy trình. Và cái đó được Viện Khoa học và Nông nghiệp Việt NNam tham gia và đảm bảo về chất lượng. Cho nên có thể nói rằng trong nước ta hiện nay đó là một loại trà Linh chi có chất lượng, đảm bảo uy tín và giá thành hợp lý</p>",
+            "image_avatar": "shopify://shop_images/image_211_2.png",
             "block_heading_avatar": "Ths.BS.Hoàng Khánh Toàn",
             "block_heading_1": "Trưởng khoa y học cổ truyền - Bệnh viện Quân Y 108",
-            "image_product": "shopify:\/\/shop_images\/z5330742800604_bdd852a2fd0ce729485056fdaa0cd799_72972562-5a2a-4f5c-97f0-22401b7e1cb8.jpg"
+            "image_product": "shopify://shop_images/z5330742800604_bdd852a2fd0ce729485056fdaa0cd799_72972562-5a2a-4f5c-97f0-22401b7e1cb8.jpg"
           }
         },
         "block_1_Np8Rxp": {
           "type": "block_1",
           "settings": {
-            "block_subheading_1": "<p>\"Quy trình nuôi trồng của Linh Chi Đỏ Nhất Long tuân thủ các tiêu chuẩn nghiêm ngặt về nông nghiệp bền vững. Việc không sử dụng phân bón hóa học hay thuốc trừ sâu đảm bảo rằng nấm linh chi không chỉ an toàn cho người sử dụng mà còn thân thiện với môi trường. Điều này làm tôi rất ấn tượng và tin tưởng vào chất lượng của sản phẩm.\"<\/p>",
-            "image_avatar": "shopify:\/\/shop_images\/Screenshot_2024-07-01_215437_ead3863a-fb69-4762-8941-b75c5c35aad5.png",
+            "block_subheading_1": "<p>\"Quy trình nuôi trồng của Linh Chi Đỏ Nhất Long tuân thủ các tiêu chuẩn nghiêm ngặt về nông nghiệp bền vững. Việc không sử dụng phân bón hóa học hay thuốc trừ sâu đảm bảo rằng nấm linh chi không chỉ an toàn cho người sử dụng mà còn thân thiện với môi trường. Điều này làm tôi rất ấn tượng và tin tưởng vào chất lượng của sản phẩm.\"</p>",
+            "image_avatar": "shopify://shop_images/Screenshot_2024-07-01_215437_ead3863a-fb69-4762-8941-b75c5c35aad5.png",
             "block_heading_avatar": "Ths. BS. Hà Vũ Thành",
             "block_heading_1": "Bs. Bệnh viện K Trung Ương",
-            "image_product": "shopify:\/\/shop_images\/Rectangle_4.png"
+            "image_product": "shopify://shop_images/Rectangle_4.png"
           }
         },
         "block_1_nLyaTk": {
           "type": "block_1",
           "settings": {
-            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”<\/p>",
-            "image_avatar": "shopify:\/\/shop_images\/Screenshot_2024-07-01_215437.png",
+            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”</p>",
+            "image_avatar": "shopify://shop_images/Screenshot_2024-07-01_215437.png",
             "block_heading_avatar": "",
             "block_heading_1": "",
-            "image_product": "shopify:\/\/shop_images\/quote-a_png.png"
+            "image_product": "shopify://shop_images/quote-a_png.png"
           }
         },
         "block_1_zwJern": {
           "type": "block_1",
           "settings": {
-            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”<\/p>",
-            "image_avatar": "shopify:\/\/shop_images\/Screenshot_2024-07-01_215437.png",
+            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”</p>",
+            "image_avatar": "shopify://shop_images/Screenshot_2024-07-01_215437.png",
             "block_heading_avatar": "Thạc sĩ Hà Vũ Thành",
             "block_heading_1": "Chuyên gia nội khoa Bệnh viện K Trung Ương",
-            "image_product": "shopify:\/\/shop_images\/quote-a_png.png"
+            "image_product": "shopify://shop_images/quote-a_png.png"
           }
         },
         "block_1_FTyHrV": {
           "type": "block_1",
           "settings": {
-            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”<\/p>",
-            "image_avatar": "shopify:\/\/shop_images\/image_211_1.png",
+            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”</p>",
+            "image_avatar": "shopify://shop_images/image_211_1.png",
             "block_heading_avatar": "Tiến Sĩ Ngô Xuân Nghiễn",
             "block_heading_1": "Chuyên gia công nghệ nấm ăn và nấm dược liệu",
-            "image_product": "shopify:\/\/shop_images\/quote-a_png.png"
+            "image_product": "shopify://shop_images/quote-a_png.png"
           }
         },
         "block_1_AEY43z": {
           "type": "block_1",
           "settings": {
-            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”<\/p>",
-            "image_avatar": "shopify:\/\/shop_images\/image_211_1.png",
+            "block_subheading_1": "<p>“Cao khô dạng trà hoà tan như Trà Linh Chi Nhất Long sẽ đảm bảo chiết được hết các dược chất trong nấm. Khi sử dụng cao khô hoà tan Linh Chi Nhất Long, tôi cảm nhận rõ hương vị rất đặc trưng đó là mùi thơm tự nhiên và đắng dễ chịu của nấm Linh Chi đỏ”</p>",
+            "image_avatar": "shopify://shop_images/image_211_1.png",
             "block_heading_avatar": "Tiến Sĩ Ngô Xuân Nghiễn",
             "block_heading_1": "Chuyên gia công nghệ nấm ăn và nấm dược liệu",
-            "image_product": "shopify:\/\/shop_images\/quote-a_png.png"
+            "image_product": "shopify://shop_images/quote-a_png.png"
           }
         }
       },
@@ -283,8 +280,8 @@
         "heading": "Chia sẻ của khách hàng về Linh Chi Đỏ Nhất Long",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/FB LCNL.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/FB LCNL.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "",
