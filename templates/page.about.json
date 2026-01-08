@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -7,9 +16,9 @@
           "type": "block_1",
           "settings": {
             "block_heading_1": "Tầm nhìn",
-            "block_subheading_1": "<p>Trở thành Trang trại trồng nấm Linh chi đỏ chất lượng hàng đầu Việt nam và phân phối sản phẩm dược phẩm chất lượng, mang lại lợi ích sức khỏe và hạnh phúc cho mọi người.<\/p>",
+            "block_subheading_1": "<p>Trở thành Trang trại trồng nấm Linh chi đỏ chất lượng hàng đầu Việt nam và phân phối sản phẩm dược phẩm chất lượng, mang lại lợi ích sức khỏe và hạnh phúc cho mọi người.</p>",
             "block_heading_2": "Sứ mệnh",
-            "block_subheading_2": "<p>+  Kinh doanh, sản xuất để phụng sự con người : <br\/>Kinh doanh để phụng sự con người là triết lý kinh doanh mà mục tiêu chính không chỉ là tạo ra lợi nhuận mà còn là cải thiện cuộc sống và đáp ứng các nhu cầu của con người. Điều này bao gồm việc sản xuất, cung cấp các sản phẩm và dịch vụ hữu ích, giúp bà con có thu nhập ổn định, hỗ trợ cộng đồng, bảo vệ môi trường, đảm bảo điều kiện làm việc công bằng và an toàn cho nhân viên, và tham gia vào các hoạt động xã hội có ý nghĩa. Kinh doanh để phụng sự con người tại CG là việc xây dựng một tập thể tích cực, bền vững giữa doanh<br\/>nghiệp và cộng đồng mà CG hoạt động.<\/p>"
+            "block_subheading_2": "<p>+  Kinh doanh, sản xuất để phụng sự con người : <br/>Kinh doanh để phụng sự con người là triết lý kinh doanh mà mục tiêu chính không chỉ là tạo ra lợi nhuận mà còn là cải thiện cuộc sống và đáp ứng các nhu cầu của con người. Điều này bao gồm việc sản xuất, cung cấp các sản phẩm và dịch vụ hữu ích, giúp bà con có thu nhập ổn định, hỗ trợ cộng đồng, bảo vệ môi trường, đảm bảo điều kiện làm việc công bằng và an toàn cho nhân viên, và tham gia vào các hoạt động xã hội có ý nghĩa. Kinh doanh để phụng sự con người tại CG là việc xây dựng một tập thể tích cực, bền vững giữa doanh<br/>nghiệp và cộng đồng mà CG hoạt động.</p>"
           }
         },
         "block_2_M6jGTy": {
@@ -17,27 +26,27 @@
           "settings": {
             "block2_header_heading": "Giá trị văn hoá & giá trị cốt lõi",
             "block2_heading_1": "Trung Thực",
-            "block2_subheading_1": "<p>Công ty dược phẩm CG việt nam chúng tôi coi trọng trung thực như là nền tảng của mọi hoạt động. Chúng tôi cam kết đảm bảo rằng mọi hành động và quyết định được đề xuất và thực hiện dựa trên sự trung thực và minh bạch.<\/p>",
+            "block2_subheading_1": "<p>Công ty dược phẩm CG việt nam chúng tôi coi trọng trung thực như là nền tảng của mọi hoạt động. Chúng tôi cam kết đảm bảo rằng mọi hành động và quyết định được đề xuất và thực hiện dựa trên sự trung thực và minh bạch.</p>",
             "block2_heading_2": "Tận Tâm",
-            "block2_subheading_2": "<p>Sự tận tâm là một phần không thể thiếu của mỗi hoạt động tại CG. Chúng tôi cam kết đem đến sự tận tâm cao nhất trong mọi khía cạnh của công việc và kinh doanh, từ cung cấp sản phẩm và dịch vụ đến tương tác với khách hàng và đối tác.<\/p>",
+            "block2_subheading_2": "<p>Sự tận tâm là một phần không thể thiếu của mỗi hoạt động tại CG. Chúng tôi cam kết đem đến sự tận tâm cao nhất trong mọi khía cạnh của công việc và kinh doanh, từ cung cấp sản phẩm và dịch vụ đến tương tác với khách hàng và đối tác.</p>",
             "block2_heading_3": "Học Tập",
-            "block2_subheading_3": "<p>Tại Dược phẩm CG VN chúng tôi coi trọng sự học tập như một phần không thể thiếu của môi trường làm việc. Chúng tôi cam kết tạo ra một nền tảng mà mọi nhân viên đều được khuyến khích và hỗ trợ trong việc phát triển kiến thức và kỹ năng của mình.<\/p>",
+            "block2_subheading_3": "<p>Tại Dược phẩm CG VN chúng tôi coi trọng sự học tập như một phần không thể thiếu của môi trường làm việc. Chúng tôi cam kết tạo ra một nền tảng mà mọi nhân viên đều được khuyến khích và hỗ trợ trong việc phát triển kiến thức và kỹ năng của mình.</p>",
             "block2_heading_4": "Gieo Hạt",
-            "block2_subheading_4": "<p>Gieo Hạt là chìa khóa để tạo ra một tương lai tươi sáng và bền vững. Chúng tôi cam kết thực hành việc gieo hạt cho sự phát triển và thành công của cá nhân, cộng đồng và môi trường.<\/p>"
+            "block2_subheading_4": "<p>Gieo Hạt là chìa khóa để tạo ra một tương lai tươi sáng và bền vững. Chúng tôi cam kết thực hành việc gieo hạt cho sự phát triển và thành công của cá nhân, cộng đồng và môi trường.</p>"
           }
         },
         "block_3_eneDkb": {
           "type": "block_3",
           "settings": {
             "heading_our_partner": "Đối tác của chúng tôi",
-            "image_our_partner": "shopify:\/\/shop_images\/Frame_19_1.jpg",
-            "image_our_partner_1": "shopify:\/\/shop_images\/Frame_18_1.jpg",
-            "image_our_partner_2": "shopify:\/\/shop_images\/Frame_1171275169_1.jpg",
-            "image_our_partner_3": "shopify:\/\/shop_images\/Frame_1171275170_2.jpg",
-            "image_our_partner_4": "shopify:\/\/shop_images\/Frame_1171275171_1.jpg",
-            "image_our_partner_5": "shopify:\/\/shop_images\/Frame_1171275175_1.jpg",
-            "image_our_partner_6": "shopify:\/\/shop_images\/Frame_1171275172_1.jpg",
-            "image_our_partner_7": "shopify:\/\/shop_images\/Frame_1171275174_1.jpg"
+            "image_our_partner": "shopify://shop_images/Frame_19_1.jpg",
+            "image_our_partner_1": "shopify://shop_images/Frame_18_1.jpg",
+            "image_our_partner_2": "shopify://shop_images/Frame_1171275169_1.jpg",
+            "image_our_partner_3": "shopify://shop_images/Frame_1171275170_2.jpg",
+            "image_our_partner_4": "shopify://shop_images/Frame_1171275171_1.jpg",
+            "image_our_partner_5": "shopify://shop_images/Frame_1171275175_1.jpg",
+            "image_our_partner_6": "shopify://shop_images/Frame_1171275172_1.jpg",
+            "image_our_partner_7": "shopify://shop_images/Frame_1171275174_1.jpg"
           }
         }
       },
@@ -48,8 +57,8 @@
       ],
       "settings": {
         "heading": "Về CG Việt Nam",
-        "sub_heading": "Công ty TNHH Thương mại CG Việt Nam được thành lập ngày 19 tháng 8 năm 2008. Thành viên sáng lập gồm bà Trần Thị Diệu Bình và bà Vũ Thị Ngọc. Từ ngày đầu thành lập mới chỉ có 7 nhân viên chính thức và gần 10 cộng tác viên. Với hơn 15 năm nỗ lực và phát triển, cho đến nay đội ngũ CG Việt Nam đã có hơn 50 nhân sự chính thức, gần 100 cộng tác viên cả nước. Hiện tại công ty tnhh TM CG việt nam có 1 doanh nghiệp chuyên phân phối dược phẩm, thực phẩm chức năng, thiết bị y tế, thực phẩm bổ sung và có 2 trang trại ,1 trang trại Trông Nấm Linh chi đỏ, 1 trang trại nuôi trồng dược liệu và cây ăn quả, Bên cạnh đó CG có thế mạnh huấn luyện và đào tạo đội ngũ kinh doanh\/trình dược viên nhà thuốc, bệnh viện.",
-        "banner": "shopify:\/\/shop_images\/CGVN_1.png"
+        "sub_heading": "Công ty CG Việt Nam được thành lập ngày 19 tháng 8 năm 2008. Thành viên sáng lập gồm bà Trần Thị Diệu Bình và bà Vũ Thị Ngọc. Từ ngày đầu thành lập mới chỉ có 7 nhân viên chính thức và gần 10 cộng tác viên. Với hơn 15 năm nỗ lực và phát triển, cho đến nay đội ngũ CG Việt Nam đã có hơn 50 nhân sự chính thức, gần 100 cộng tác viên cả nước. Hiện tại công ty CG việt nam có 1 doanh nghiệp chuyên phân phối dược phẩm, thực phẩm chức năng, thiết bị y tế, thực phẩm bổ sung và có 2 trang trại ,1 trang trại Trông Nấm Linh chi đỏ, 1 trang trại nuôi trồng dược liệu và cây ăn quả, Bên cạnh đó CG có thế mạnh huấn luyện và đào tạo đội ngũ kinh doanh/trình dược viên nhà thuốc, bệnh viện. Công ty Cổ phần Dược phẩm CG Việt Nam luôn chú trọng xây dựng và phát triển vùng trồng dược liệu theo hướng <strong>bền vững – kiểm soát chất lượng – gắn kết lợi ích lâu dài với người nông dân</strong>. Cụ thể: <strong>1. Phối hợp xây dựng vùng trồng chuẩn hóa: </strong>CG Việt Nam trực tiếp phối hợp với bà con địa phương trong việc cung cấp giống dược liệu đạt tiêu chuẩn, hướng dẫn quy trình canh tác, chăm sóc và thu hoạch theo đúng yêu cầu kỹ thuật, đảm bảo chất lượng dược liệu ngay từ đầu vào. <strong>2. Thu hái, thu mua ổn định – minh bạch: </strong>Công ty tổ chức thu hái và thu mua dược liệu theo kế hoạch, đảm bảo đầu ra ổn định cho bà con, hạn chế rủi ro về giá cả và thị trường, giúp người trồng yên tâm sản xuất lâu dài. <strong>3. Kiểm soát chặt chẽ chất lượng đầu vào – đầu ra: </strong>Toàn bộ dược liệu từ vùng trồng được kiểm soát nghiêm ngặt từ khâu giống, canh tác, thu hái đến bảo quản và vận chuyển, đáp ứng các tiêu chuẩn chất lượng trước khi đưa vào sản xuất, góp phần tạo ra những sản phẩm an toàn và hiệu quả cho người tiêu dùng. <strong>4. Góp phần ổn định sinh kế, nâng cao đời sống người dân địa phương: </strong>Thông qua việc phát triển vùng trồng dược liệu, CG Việt Nam đồng hành cùng bà con xây dựng sinh kế bền vững ngay tại địa phương, tăng thu nhập, ổn định cuộc sống và thúc đẩy phát triển kinh tế nông thôn theo hướng lâu dài.",
+        "banner": "shopify://shop_images/CGVN_1.png"
       }
     }
   },
