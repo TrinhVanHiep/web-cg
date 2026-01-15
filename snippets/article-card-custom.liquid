@@ -23,7 +23,7 @@ Usage:
 section.settings.show_image %}
 {% endcomment %}
 {%- if article and article != empty -%}
-<div class="article-wrapper" onclick="window.location.href={{ article.url | json }}">
+<div class="article-wrapper">
   <div class="article-image">
     <img
       src="{{ article.image.src | image_url: width: master }}"
