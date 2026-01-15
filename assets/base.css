@@ -2487,6 +2487,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .header__heading-logo {
   height: auto;
+  max-height: 65px;
+  object-fit: contain;
   max-width: 100%;
 }
 
