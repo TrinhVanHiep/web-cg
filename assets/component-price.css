@@ -30,7 +30,7 @@
 .price:not(.price--show-badge) .price-item--last:last-of-type {
   margin: 0;
   color: #d3a540;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 38px;
     font-family: BeautiqueDisplay;
     font-weight: 700;
@@ -92,7 +92,7 @@
 .price--on-sale .price-item--regular {
   text-decoration: line-through;
   color: #d3a540;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 38px;
     font-family: BeautiqueDisplay;
     font-weight: 700;
